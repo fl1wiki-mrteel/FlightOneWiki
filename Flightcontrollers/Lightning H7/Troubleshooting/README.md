@@ -3,10 +3,11 @@
 ## Lightning H7 - No Folders or Startup Tones
 
 _Error/Problem_ : 
+</br>
 ![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/H7_nofolders.jpg)
 ![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/H7_nofolders_02.jpg)
 
-_Solution_ :
+### Solution :
 
 Windows:
 1. Open "Disk Management"
@@ -20,5 +21,5 @@ Windows:
 ![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/H7FoldersFW.PNG)
 
 
-Video:
+### Video:
 - [Fix No Folders or Startup Tones on Flightone FalcoX (2dogrc)](https://youtu.be/HM_NtHLjoVA)
