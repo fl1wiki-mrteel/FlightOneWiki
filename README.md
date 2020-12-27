@@ -79,5 +79,6 @@ _dummylink
 - [BlackBird](https://www.youtube.com/channel/UCyXHYPT1RrzU6_skZaPchCg)
 - [Johnny FPV](https://www.youtube.com/channel/UC7O8KgJdsE_e9op3vG-p2dg)
 - [Skitzo](https://www.youtube.com/channel/UCTG9Xsuc5-0HV9UcaTeX1PQ)
+- ...feels like we are missing some... :P
 
 
