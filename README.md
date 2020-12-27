@@ -33,10 +33,10 @@ _dummylink
 </br>
 
 # Videos
-- Build
-- Features
-- FalcoX
-- Tuning
+- [Build](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Videos)
+- [Features](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Videos)
+- [FalcoX](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Videos)
+- [Tuning](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Videos)
 
 # Boot up logo
 <a href='https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Lightning%20H7/Splash%20Screen'>Boot up logo</a>
