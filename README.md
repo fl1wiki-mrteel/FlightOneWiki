@@ -62,6 +62,13 @@ _dummylink
 
 
 # External links
+
+## Support channels
+- [Facebook - FlightOne Official Discussion and Support](https://www.facebook.com/groups/flightone/)
+- [Facebook - FlightOne FalcoX Testers](https://www.facebook.com/groups/falcox)
+- [Discord - FlightOne](https://flightone.com/discord.php)
+
+
 ## Guides
 
 - [FlightOne Official](https://www.youtube.com/channel/UCrDqXVdOO2dC420YMLuFwMw)
