@@ -47,6 +47,7 @@
 Check out the Todo list -> [TodoList](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/Contribute/Todolist.md) <-
 
 # External links
-- <a href='https://www.youtube.com/watch?v=iv8rSLsi1xo' target='_BLANK'>How to use Github (Youtube)</a>
-- <a href='https://guides.github.com/features/mastering-markdown/' target='_BLANK'>Markdown/Formatting text</a>
+- [How to use Github (Youtube)](https://www.youtube.com/watch?v=iv8rSLsi1xo)
+- [Markdown/Formatting text](https://guides.github.com/features/mastering-markdown/)
+- [How to Fork and submit a pull request](https://jarv.is/notes/how-to-pull-request-fork-github/)
 
