@@ -13,13 +13,17 @@
     - [ ] LED
     - [ ] Buzzer
     - [ ] VTX Kill
+    - [ ] PinToggle
+    - [ ] DJI Airunit / Caddx Vista
 - [ ] RevoltOSD
     - [ ] ESC
     - [ ] LED
     - [ ] Buzzer
     - [ ] PinToggle    
+    - [ ] DJI Airunit / Caddx Vista    
 - [ ] MillivoltOSD
     - [ ] ESC
     - [ ] LED
     - [ ] Buzzer
     - [ ] PinToggle    
+    - [ ] DJI Airunit / Caddx Vista    

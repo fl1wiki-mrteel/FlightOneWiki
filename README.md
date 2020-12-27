@@ -4,6 +4,7 @@ The inofficial Wiki, by the community</br>
 # Contribute
 We all need YOU to contribute! -> <a href='/Contribute/Contribute.md'>Read this guide to help</a> <-
 
+Check out the Todo list -> [TodoList](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/Contribute/Todolist.md) <-
 
 # Initial build and setup
 
