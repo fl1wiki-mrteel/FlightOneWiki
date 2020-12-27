@@ -8,7 +8,7 @@ Check out the Todo list -> [TodoList](https://github.com/fl1wiki-mrteel/FlightOn
 
 # Initial build and setup
 
-[New build (not only for beginners)](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/InitialSetup)
+[Build and Setup](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/InitialSetup)
 
 # Features
 

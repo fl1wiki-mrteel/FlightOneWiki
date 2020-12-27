@@ -8,6 +8,9 @@
 5. Add a 1000uf 35v or bigger capacitor (CAP), like 2000uf 35v, or even bigger.
 6. Change ESC settings (FalcoX now has)
 
+## Flash firmware
+[How to flash firmware](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/InitialSetup/FlashFirmware.md)
+
 ## Maiden flight
 - [ ] DO NOT CHANGE ANY FILTERS OR PIDs (Everything should be able to fly on defaults)
 - [ ] Do a dry run: Try it on the floor without any props, yaw right/left, check if it rotates in right direction
