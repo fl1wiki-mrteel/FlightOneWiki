@@ -9,7 +9,7 @@
 5. Create a folder on your drive, lets call it "FlightOneWiki"
 6. Open the folder and right-click "Git Bash Here"
 ![Image of gitbash](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/gitbash.PNG)
-7. write "git clone https://github.com/fl1wiki-mrteel/FlightOneWiki" and press enter
+7. write "git clone https://github.com/<your github alias>/FlightOneWiki" and press enter
 ![Image of gitclone](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/gitclone.PNG)
 8. Now you should have the whole FlightOneWiki downloaded
 9. Open your text editor and open the "FlightOneWiki" folder
