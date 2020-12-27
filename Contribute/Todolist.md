@@ -27,3 +27,26 @@
     - [ ] Buzzer
     - [ ] PinToggle    
     - [ ] DJI Airunit / Caddx Vista    
+
+# Features
+- [ ] Filters
+    - [ ] Cerebro
+    - [ ] Dynamic filter     
+    - [ ] Gyro Filter1/Filter2    
+    - [ ] D-term Filter1/Filter2
+    - [ ] AA / Anti Aliasing          
+- [ ] PID controllers
+    - [ ] SIM Mode
+    - [ ] Whisper  
+- [ ] BLheli Passthru
+- [ ] VTX Kill
+- [ ] Buzzer/Motorbeep
+
+# Recommended gear
+- [ ] Recommended gear list
+
+# Videos
+- [ ] Build
+- [ ] Features
+- [ ] FalcoX
+- [ ] Tuning
