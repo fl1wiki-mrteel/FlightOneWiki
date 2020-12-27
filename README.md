@@ -17,6 +17,8 @@ Check out the Todo list -> [TodoList](https://github.com/fl1wiki-mrteel/FlightOn
 - [BLheli Passthru](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Features/BLHeli)
 - [VTX Kill](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Features/VTX)
 - [Buzzer/Motorbeep](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Features/Buzzer)
+- [Boot up logo](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Lightning%20H7/Splash%20Screen)
+
 
 ## Feature log
 
@@ -37,9 +39,6 @@ _dummylink
 - [Features](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Videos)
 - [FalcoX](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Videos)
 - [Tuning](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Videos)
-
-# Boot up logo
-<a href='https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Lightning%20H7/Splash%20Screen'>Boot up logo</a>
 
 # Were to buy
 <pre>
