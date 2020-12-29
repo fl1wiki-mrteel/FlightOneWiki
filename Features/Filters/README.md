@@ -18,7 +18,7 @@
 
 
 ### AI Cerebro
-A type of dynamic filter, lets you raise stage 1 and stage 2 filter cutoffs by 25%.
+A type of dynamic filter, lets you raise stage 1 and stage 2 filter cutoffs by 25% (for eg from 240hz to 300Hz, or 105hz to 130hz).
 Start by raising the cutoff by 25hz at a time, check for hot motors.
 
 ### Frequency
@@ -47,6 +47,7 @@ Available in off, low, mid, high
 
 
 # External links
+- [AI/Cerebro - WildWilly](https://youtu.be/tghqr7yJ78I)
 - [FlightOne - Filters Part 1](https://www.youtube.com/watch?v=cuwD1KiZQLw)
 - [FlightOne - Quickly tune filters and pids](https://www.youtube.com/watch?v=HcopWSx8hYk)
 - [UAV Tech Filtering Fundamentals](https://www.youtube.com/watch?v=A09sprstYqI)
