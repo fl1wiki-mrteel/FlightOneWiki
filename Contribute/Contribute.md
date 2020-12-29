@@ -61,7 +61,12 @@ git merge upstream/main // or // git merge upstream/master
 git push origin main // or // git push origin master
 
 ```
-#Now you can do your changes and create a pull request from github web
+
+![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/GITHUB_FETCH.JPG)
+![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/GITHUB_MERGE.JPG)
+
+### Now you can do your changes and create a pull request from github web
+
 ![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/GITHUB_PULLREQ.JPG)
 ![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/GITHUB_PULLREQ_002.JPG)
 ![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/GITHUB_PULLREQ_003.JPG)
