@@ -3,6 +3,8 @@
 cmdlet|minimum version|default|function|Available values|note
 ----- | ----- | ----- | ----- | ----- | ----
 NO_BOOT|Version 1.2.2 (Bootloader)|N/A|Troubleshooting|N/A|N/A
+OSD_ON |N/A| N/A|OSD over serial|None|N/A
+OSD_OFF |N/A| N/A|OSD over serial|None|N/A
 dump|N/A|N/A|Backup configuration|N/A|Dumps configuration in raw text
 save|N/A|N/A|Save to flash|N/A|Save to flash
 set|N/A|N/A|set cmdlet|all' cmdlets|use before cmdlet, eg SET chan0_minrc=-1
