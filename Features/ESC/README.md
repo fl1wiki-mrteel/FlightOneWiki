@@ -1,7 +1,7 @@
 # ESC Protocols
 
 Name | Array value/Index | kHz | Speed | Note
------ | ----- | ----- 
+----- | ----- | -----  | -----  | -----
 Multishot | 0 | N/A | 25 uS | N/A
 DSHOT64 | 1 | ~64 kHz | N/A | Same as DSHOT2400? requires Blheli_32 F3 ESC
 DSHOT32 | 2 | ~32 kHz | N/A | Same as DSHOT1200? requires Blheli_32 ESC
