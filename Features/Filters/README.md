@@ -41,6 +41,8 @@ Available values:
 - Dynamic AA: Enabled/Disabled
 - AA Strength: off, low, mid, high
 
+### Predictive
+A variation of a Dynamic LPF, takes samples and calculates the cutoff frequency
 
 
 ## Filtering explained
