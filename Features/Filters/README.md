@@ -35,7 +35,11 @@ Filters more then frequency filter (?)
 Set your filter Hz and set how much it should filter with "Dynamic filter scale"  default is 80.
 
 ### AA / Anti Aliasing
-Available in off, low, mid, high
+Used for noisy builds, can help remove some of the last noise
+
+Available values:
+- Dynamic AA: Enabled/Disabled
+- AA Strength: off, low, mid, high
 
 
 
