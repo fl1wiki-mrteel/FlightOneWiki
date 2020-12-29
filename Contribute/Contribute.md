@@ -47,7 +47,7 @@ Check out the Todo list -> [TodoList](https://github.com/fl1wiki-mrteel/FlightOn
 9. Open your text editor and open the "FlightOneWiki" folder
 10. Now you should be able to edit and commit changes to the Github repo.
 
-## Using Git with fork
+## Using Git with fork / pull request
 
 Install Git (<a href='https://git-scm.com/downloads' target='_BLANK'>https://git-scm.com/downloads</a>)
 ```
