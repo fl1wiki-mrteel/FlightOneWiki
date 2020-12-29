@@ -18,8 +18,12 @@
 
 
 ### AI Cerebro
-A type of dynamic filter, lets you raise stage 1 and stage 2 filter cutoffs by 25% (for eg from 240hz to 300Hz, or 105hz to 130hz).
-Start by raising the cutoff by 25hz at a time, check for hot motors.
+A type of AI based dynamic filter
+- lets you raise stage 1 and stage 2 filter cutoffs by 25% 
+    - for eg from 240hz to 300Hz, or 105hz to 130hz
+    - Start by raising the cutoff by 25hz at a time, check for hot motors.
+
+![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/H7_EnableCerebro.JPG)
 
 ### Frequency
 Static frequency filter (PT1?), faster then Biquad
