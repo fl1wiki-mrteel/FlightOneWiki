@@ -13,6 +13,8 @@ Check out the Todo list -> [TodoList](https://github.com/fl1wiki-mrteel/FlightOn
     - [VTX and/or Camera on VBAT](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/InitialSetup/VBAT.md)
     - Pinout
         - [Lightning H7](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/Flightcontrollers/Lightning%20H7/Pinout)
+        - [RevoltOSD](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/Flightcontrollers/RevoltOSD/Pinout)
+        - [MillivoltOSD](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/Flightcontrollers/MillivoltOSD/Pinout)
 
 # Features
 
