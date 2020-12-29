@@ -42,6 +42,9 @@
 - [ ] VTX Kill
 - [ ] Buzzer/Motorbeep
 
+# Third party hardware
+- [x] How to buy license
+
 # Recommended gear
 - [ ] Recommended gear list
 
