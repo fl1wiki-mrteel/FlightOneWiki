@@ -47,13 +47,37 @@ Available values:
 
 ### Gyro
 
+We usually need both stage 1 and stage 2 Gyro filters. 
+
+- For a really clean build we can use Frequency for both stage 1 and 2: 
+    - Stage 1: Freq @ 300hz
+    - Stage 2: Freq @ 150hz
+- For a somewhat clean build: 
+    - Stage 1: Freq @ 240hz
+    - Stage 2: Freq @ 105hz
+- For a noisy build: 
+    - Stage 1: Freq @ 170hz
+    - Stage 2: Dynamic @ 80hz
+        - Dynamic filter scale: 80-100
+
 #### Gyro:Stage 1
 
 #### Gyro:Stage 2
 
 ### D-Term
+Usually only need for one D-Term filter
+
+- For a clean build we can use Biquad for stage 1:
+    - Stage 1: Biquad @ 200-225hz
+- For a somewhat clean build: 
+    - Stage 1: Biquad @ 200hz
+    - Stage 2: Biquad @ 200hz
+- For a noisy build: 
+    - Stage 1: Biquad @ 170hz
+    - Stage 2: Biquad @ 80hz    
 
 #### D-Term:Stage 1
+
 
 #### D-Term:Stage 2
 
