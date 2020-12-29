@@ -46,7 +46,59 @@ Version | Type | Feature
     - Im missing someone...?
 
 # Recommended gear
-_dummylink
+
+- Frame
+    - FlightOne
+        - Wild Willy | Dolphin1
+        - Skizo Nova
+        - NytFury ARC One
+    - ImpulseRC
+        - Alien 5"
+    - FPVCYCLE
+        - GLIDE
+    - Ummagawd 
+        - Moongoat
+    - Xhover
+        - Stingy V2
+    - FIVE33
+        - SWITCHBACK
+    - MadKwads
+        - MAD-S
+        - MAD-L        
+    - Kwadsquad
+        - SquadV2
+        - miniSquadv3
+- ESC
+    - FlightOne
+        - AfterBurner 4 In 1 ESC 20×20/30×30
+        - MegaBolt Extreme 4 In 1 ESC 30×30
+    - HobbyWing
+        - 20x20 XRotor Micro 40A BLheli_32
+        - 30x30 XRotor Micro 60A Blheli_32
+    - Holybro 
+        - Tekko32
+- Motor
+    - T-Motor
+        - Blackbird
+        - F40 / F60
+    - FlightOne
+        - Candy Coated Motors
+        - Wild Willy’s Special Juice
+    - Ethix
+        - Ethix stout v3
+        - Ethix silk v3
+- Camera (FPV)
+    - Foxeer
+        - Predator Pro v4 1.8" (Mini)
+        - Monster Pro 1.8" (Mini)
+        - Monster Pro 1.8" (Micro)
+    - Runcam
+        - Racer Nano 2 (Nano)
+- VTX
+    - TBS
+        - Unify Pro HV
+        - Unify Pro32 Nano
+
 
 # Troubleshooting
 
