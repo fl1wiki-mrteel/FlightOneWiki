@@ -1,6 +1,6 @@
 # Filters
 
-![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/FLX_Filter_01.JPG)
+![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/FLX_Filter_001.JPG)
 
 ## Gyro filters
 
