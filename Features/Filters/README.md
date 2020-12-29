@@ -47,11 +47,15 @@ Available values:
 
 ### Gyro
 
-#### Stage 1, Stage 2
+#### Gyro:Stage 1
 
-### D-term
+#### Gyro:Stage 2
 
-#### Stage 1, Stage 2
+### D-Term
+
+#### D-Term:Stage 1
+
+#### D-Term:Stage 2
 
 
 # External links
