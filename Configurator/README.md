@@ -2,9 +2,15 @@
 
 ## Official
 
-- [FalcoX Configurator (Alpha)](https://flightone.com/download.php?version=alpha)
-- [FalcoX Configurator (Beta)](https://flightone.com/download.php?version=beta)    
-- [FalcoX Configurator (Stable)](https://flightone.com/download.php?version=stable) 
+Name | Device support | Minimum FalcoX Version | Direct download | Link
+----- | ----- | ----- | ----- | -----
+FalcoX Configurator (Alpha) | PC/Windows/MAC | N/A | N/A | [FalcoX Configurator (Alpha)](https://flightone.com/download.php?version=alpha)
+
+FalcoX Configurator (Beta) | PC/Windows/MAC | N/A | N/A | [FalcoX Configurator (Beta)](https://flightone.com/download.php?version=beta)  
+
+FalcoX Configurator (Stable) | PC/Windows/MAC | N/A | N/A | [FalcoX Configurator (Stable)](https://flightone.com/download.php?version=stable) 
+
+
 
 ## Third-Party
 
