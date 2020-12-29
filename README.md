@@ -37,12 +37,12 @@ Version | Type | Feature
 
 # Tunes
 - FL1 Official
-    - [Default](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Tunes/README.md)
-    - [HeadsUp](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Tunes/README.md)
-    - [WildWilly](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Tunes/README.md)
-    - [Skitzo](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Tunes/README.md)
-    - [Johnny FPV](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Tunes/README.md)
-    - [WindowWasher](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Tunes/README.md)
+    - [Default](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Tunes/README.md#default)
+    - [HeadsUp](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Tunes/README.md#HeadsUp)
+    - [WildWilly](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Tunes/README.md#WildWilly)
+    - [Skitzo](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Tunes/README.md#Skitzo)
+    - [JohnnyFPV](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Tunes/README.md#JohnnyFPV)
+    - [WindowWasher](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Tunes/README.md#WindowWasher)
     - Im missing someone...?
 
 # Recommended gear

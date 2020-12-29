@@ -3,7 +3,7 @@
 
 ## Default
 
-´´´
+```
 SET esc_protocol=5
 SET idle_percent=5
 SET max_throttle=100
@@ -84,39 +84,35 @@ SET roll_expo1=0.800
 SET yaw_expo1=0.800
 SET rate_select=1
 
-´´´
+```
 
 ## HeadsUp
+```
 
-´´´
-
-
-´´´
+```
 
 ## WildWilly
 
-´´´
+```
 
 
-´´´
+```
 
 ## Skitzo
 
-´´´
+```
 
 
-´´´
+```
 
-## Johnny FPV
+## JohnnyFPV
 
-´´´
+```
 
 
-´´´
+```
 
 ## WindowWasher
+```
 
-´´´
-
-
-´´´
+```
