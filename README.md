@@ -36,7 +36,14 @@ Version | Type | Feature
 10.1.0.4729 | VTX | New Quick VTX Menu, can be accessed by holding all stick in the bottom right, opens directly to the VTX menu for quick channel changes
 
 # Tunes
-_dummylink
+- FL1 Official
+    - [Default](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Tunes/README.md)
+    - [HeadsUp](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Tunes/README.md)
+    - [WildWilly](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Tunes/README.md)
+    - [Skitzo](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Tunes/README.md)
+    - [Johnny FPV](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Tunes/README.md)
+    - [WindowWasher](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Tunes/README.md)
+    - Im missing someone...?
 
 # Recommended gear
 _dummylink
