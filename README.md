@@ -16,6 +16,7 @@ Check out the Todo list -> [TodoList](https://github.com/fl1wiki-mrteel/FlightOn
         - [RevoltOSD](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/Flightcontrollers/RevoltOSD/Pinout)
         - [MillivoltOSD](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/Flightcontrollers/MillivoltOSD/Pinout)
     - [cmdlet](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/CMDLETS)
+    - [configurators](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/Configurator)
 
 # Features
 
