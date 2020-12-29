@@ -1,5 +1,10 @@
 # FlightOneWiki - Contribute to this Wiki
 
+## Todo list
+
+Check out the Todo list -> [TodoList](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/Contribute/Todolist.md) <-
+
+
 ## Using Git as an user (Non Admin)
 
 1. Start by creating a Github account
@@ -45,8 +50,7 @@
 ## Using Git with fork
 
 Install Git (<a href='https://git-scm.com/downloads' target='_BLANK'>https://git-scm.com/downloads</a>)
-
-´´´
+```
 #Once you have forked the main repo and changes has accured to the main repo. You will have to fetch the changes done in the master/main repo and merge before doing a pull request
 
 git remote -v
@@ -55,14 +59,14 @@ git fetch upstream
 git merge upstream/main // or // git merge upstream/master
 #Push changes to your fork
 git push origin main // or // git push origin master
+
+```
 #Now you can do your changes and create a pull request from github web
+![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/GITHUB_PULLREQ.JPG)
+![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/GITHUB_PULLREQ_002.JPG)
+![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/GITHUB_PULLREQ_003.JPG)
 
-´´´
 
-
-## Todo list
-
-Check out the Todo list -> [TodoList](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/Contribute/Todolist.md) <-
 
 # External links
 - [How to use Github (Youtube)](https://www.youtube.com/watch?v=iv8rSLsi1xo)
