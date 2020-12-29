@@ -9,6 +9,7 @@
 # Connection diagram
 
 - [ ] H7
+    - [ ] 5v vs vBAT
     - [ ] ESC (2xVBAT/2xGND, Telem+CUR)
     - [ ] LED
     - [ ] Buzzer
@@ -16,12 +17,14 @@
     - [ ] PinToggle
     - [ ] DJI Airunit / Caddx Vista
 - [ ] RevoltOSD
+    - [ ] 5v vs vBAT
     - [ ] ESC
     - [ ] LED
     - [ ] Buzzer
     - [ ] PinToggle    
     - [ ] DJI Airunit / Caddx Vista    
 - [ ] MillivoltOSD
+    - [ ] 5v vs vBAT
     - [ ] ESC
     - [ ] LED
     - [ ] Buzzer
