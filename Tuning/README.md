@@ -10,6 +10,7 @@
     1. Raise P (2-3 points) and D (10), D value can be 3-20 times the P value, all depending on your filters
     1. Add I-term
 1. Add SIM Boost
+1. Add AA (anti aliasing) if needed
 
 
 
