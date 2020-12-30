@@ -6,7 +6,7 @@
 3. Your flightcontroller stack should contain of FC and ESC, nothing more (stop glueing stuff ontop)
 4. Use four (4) long screws for the full stack height, you dont need nuts ontop (if you must, then see to it that they just touch the rubber grommits, not pressing)
 5. Add a 1000uf 35v or bigger capacitor (CAP), like 2000uf 35v, or even bigger.
-6. Change ESC settings ( [Recommended ESC settings]() )
+6. Change ESC settings ( [Recommended ESC settings](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/Features/ESC) )
 
 ## Flash firmware
 [How to flash firmware](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/InitialSetup/FlashFirmware.md)
