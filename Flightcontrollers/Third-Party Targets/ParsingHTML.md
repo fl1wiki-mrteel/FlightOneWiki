@@ -57,10 +57,16 @@ foreach($link in $ResultLinks){
         $MCU_ = $MCU_ -replace "@{","" -replace "}",""
         $MPU_ = $MPU_ -replace "@{" -replace "}",""
         $TARGET_ = $TARGET_ -replace "@{" -replace "}",""
+
+        if(!$Name_){$Name_ = "N/A"}
+        if(!$Brand_Name_){$Brand_Name_ = "N/A"}
+        if(!$MCU_){$MCU_ = "N/A"}
+        if(!$TARGET_){$TARGET_ = "N/A"}
+        if(!$OSD_){$OSD_ = "N/A"}
+
         $Table_results += "$($Name_)| $($Brand_Name_)| $($MCU_)| $($MPU_)| $($TARGET_)| $($OSD_)|$($Price) | 'No'| [Link]($($url))"
 
     }
-
 
     $table = ""
 }
