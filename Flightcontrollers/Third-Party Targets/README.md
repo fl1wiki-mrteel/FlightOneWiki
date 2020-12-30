@@ -1,5 +1,18 @@
 # Third-Party Targets
 
+## Third-Party Targets
+
+Target: MAMBAF411
+- MCU: STM32F411CEU6
+- IMU: MPU6000
+- OSD: AT7456E
+
+Target: MATEKF411
+- MCU: STM32F411
+- IMU: MPU6000
+- OSD: AT7456E
+
+
 ## Flashing firmware
 1. Download and install latest FalcoX configurator
     1. [FalcoX Configurator (Alpha)](https://flightone.com/download.php?version=alpha)
