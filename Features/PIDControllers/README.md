@@ -10,9 +10,12 @@
 ## Whisper
 
 - Whisper mode is a combined PID controller/mixer combo that makes the quad feel smoother and gives it more authority
+- Whisper mode decouples the axises (Roll, Pitch, Yaw). Adjustments to one axis does not affect the other. Keeps axises from fighting each other
 - Whisper mode should be added/enabled before PID tuning.
 - SIM and Whisper can be used in conjunction with no issue. 
 - Whisper mode needs no extra changing of gains (P-I-D) anymore, that was only in legacy code a long time ago it required that (Early versions needed lower D)
+
+
 
 
 
