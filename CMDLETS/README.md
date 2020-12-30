@@ -2,12 +2,22 @@
 
 cmdlet|minimum version|default|function|Available values|note
 ----- | ----- | ----- | ----- | ----- | ----
+RESETCONFIG | N/A | N/A | Resets all config | N/A | N/A
+RESETCONFIG CUSTOM | N/A | N/A | Resets YOUR profile | N/A | N/A
+RESET_CONFIG | N/A | N/A | Resets all config | N/A | new cmdlet?
+RESET_CONFIG CUSTOM | N/A | N/A | Resets YOUR profile | N/A | new cmdlet?
+RESET_WIZARD | N/A | N/A | Resets wizard | N/A | N/A
+RESET_WIZARD RADIO | N/A | N/A | Resets Radio wizard | N/A | N/A
+DFU | N/A | N/A | DFU Flash | N/A | N/A
 NO_BOOT|Version 1.2.2 (Bootloader)|N/A|Troubleshooting|N/A|N/A
-OSD_ON |N/A| N/A|OSD over serial|None|N/A
-OSD_OFF |N/A| N/A|OSD over serial|None|N/A
-dump|N/A|N/A|Backup configuration|N/A|Dumps configuration in raw text
-save|N/A|N/A|Save to flash|N/A|Save to flash
-set|N/A|N/A|set cmdlet|all' cmdlets|use before cmdlet, eg SET chan0_minrc=-1
+OSDON | N/A | N/A |OSD over serial|None|N/A
+OSDOFF | N/A | N/A |OSD over serial|None|N/A
+DUMP | N/A | N/A | Backup configuration|N/A|Dumps configuration in raw text
+SAVE | N/A | N/A | Save to flash|N/A|Save to flash
+SET | N/A | N/A | set cmdlet|all' cmdlets|use before cmdlet, eg SET chan0_minrc=-1
+GET | N/A | N/A | Get specific attribute | N/A | N/A
+GET_OSD_ELEMENTS | N/A | N/A | Get OSD elements | N/A | N/A
+VERSION | N/A | N/A | Get current fw version | N/A | N/A
 chan0_minrc|N/A|-1|RC Min Stick|-1 to 2048|N/A
 chan1_minrc|N/A|-1|RC Min Stick|-1 to 2048|N/A
 chan2_minrc|N/A|-1|RC Min Stick|-1 to 2048|N/A
