@@ -35,7 +35,13 @@ Version | Type | Feature
 ------------ | ------------- | -------------
 10.1.0.4729 | VTX | New Quick VTX Menu, can be accessed by holding all stick in the bottom right, opens directly to the VTX menu for quick channel changes
 
+# Tuning
+
+- [Tuning guide](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Tuning)
+
+
 # Tunes
+
 - FL1 Official
     - [Default](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Tunes/README.md#default)
     - [HeadsUp](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Tunes/README.md#HeadsUp)
