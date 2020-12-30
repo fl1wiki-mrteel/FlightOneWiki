@@ -18,3 +18,4 @@
 
 # External links
 - [Preston explains SIM Mode](https://youtu.be/ltOLWVkZVLA)
+- [Betaflight 3.5 VS FlightOne Sim mode Ft. NURK](https://youtu.be/Z2qxnU2SsHM)
