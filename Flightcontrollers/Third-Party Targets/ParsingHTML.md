@@ -13,6 +13,7 @@ $ResultLinks = $links.links | ?{ ($_.InnerHTML -like "*AIO*") -and ($_.InnerHTML
 
 $Table_results = @()
 $Table_results += "Name|Brand name|MCU|MPU/IMU|TARGET|OSD|PRICE|FalcoX Tested|URL"
+$Table_results += "-----|-----|-----|-----|-----|-----|-----|-----|-----"
 
 foreach($link in $ResultLinks){
 

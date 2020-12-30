@@ -32,8 +32,8 @@ Target: MATEKF411
 
 ## Available Third-Party Boards
 
-Name|Brand name|MCU|MPU/IMU|TARGET|OSD|PRICE|URL
------|-----|-----|-----|-----|-----|-----|-----
+Name|Brand name|MCU|MPU/IMU|TARGET|OSD|PRICE|FalcoX Tested|URL
+-----|-----|-----|-----|-----|-----|-----|-----|-----
 | Geprc| MCU=STM32F411; ESC MCU=BB21F16G; *CPU*=| *MPU*=; IMU=MPU6000 gyro/accelerometer (SPI)| Firmware target=MATEKF411; Target=G_H_30; *FW*=| BetaFlight OSD w/ AT7456E chip|US$00.00 | 'No'| [Link](https://www.banggood.com/25_5x25_5mm-GEPRC-GEP-12A-F4-V1_1-F411-F4-Flight-Controller-AIO-OSD-BEC-Current-Sensor-and-12A-BL_S-2-4S-4In1-ESC-for-RC-Drone-FPV-Racing-p-1474473.html?cur_warehouse=CN&amp;rmmds=search)
 F4 Flight Controller Built-in 20A BL_S ESC & Frsky Receiver| Happymodel| F4 Flight ControllerMCU=STM32F411CEU6 (100MHZ, 512K FLASH); *CPU*=| *MPU*=; *IMU*=| Firmware target=MATEKF411RX; *FW*=; Factory firmware=F_H_40_REV16_7.HEX| |US$00.00 | 'No'| [Link](https://www.banggood.com/25_5x25_5mm-Happymodel-CrazyF411-AIO-F4-2-4S-Flight-Controller-Built-in-20A-BL_S-ESC-and-Frsky-Receiver-for-Toothpick-RC-Drone-FPV-Racing-p-1764273.html?cur_warehouse=CN&amp;rmmds=search)
 | Mamba| MCU=100MHz STM32F411CEU6; *CPU*=| *MPU*=; IMU=MPU6000| Target=MAMBAF411; *FW*=; Firmware=Betaflight| AT7456E|US$00.00 | 'No'| [Link](https://www.banggood.com/Mamba-F411-AIO-F4-Flight-Controller-25A-4S-Blheli_S-DSHOT600-Brushless-ESC-Stack-comptaible-DJI-FPV-Air-Unit-25_5x25_5mm-for-Whoop-Toothpick-RC-Drone-FPV-Racing-p-1703967.html?cur_warehouse=CN&amp;rmmds=search)
