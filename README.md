@@ -11,6 +11,7 @@ Check out the Todo list -> [TodoList](https://github.com/fl1wiki-mrteel/FlightOn
 - [Build and Setup](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/InitialSetup)
     - [How to flash firmware](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/InitialSetup/FlashFirmware.md)
         - [Third-Party Hardware - Buy FalcoX License](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/Flightcontrollers/Third-Party%20Targets)
+        - [Third-Party Boards](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Third-Party%20Targets#available-third-party-boards)
     - [VTX and/or Camera on VBAT](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/InitialSetup/VBAT.md)
     - Pinout
         - [Lightning H7](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/Flightcontrollers/Lightning%20H7/Pinout)
@@ -113,7 +114,7 @@ Version | Type | Feature
         - [No folders/Startup tones](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Lightning%20H7/Troubleshooting#lightning-h7---no-folders-or-startup-tones)
     - [RevoltOSD](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/RevoltOSD/Troubleshooting)
     - [MilliVoltOSD](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/RevoltOSD/Troubleshooting)    
-    - [Third-Pary Targets](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Third-Party%20Targets/Troubleshooting) 
+    - [Third-Party Targets](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Third-Party%20Targets/Troubleshooting) 
 
 
 </br>
