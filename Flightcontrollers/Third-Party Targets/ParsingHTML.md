@@ -12,7 +12,7 @@ $links = iwr https://www.banggood.com/search/aio-flight-controller.html?from=nav
 $ResultLinks = $links.links | ?{ ($_.InnerHTML -like "*AIO*") -and ($_.InnerHTML -like "*F4*")} | select title,href
 
 $Table_results = @()
-$Table_results += "Name|Brand name|MCU|MPU/IMU|TARGET|OSD|PRICE|FalcoX Tested|URL"
+$Table_results += "Name|Brand name|FalcoX Tested|URL|MCU|MPU/IMU|TARGET|OSD|PRICE"
 $Table_results += "-----|-----|-----|-----|-----|-----|-----|-----|-----"
 
 foreach($link in $ResultLinks){
@@ -64,7 +64,7 @@ foreach($link in $ResultLinks){
         if(!$TARGET_){$TARGET_ = "N/A"}
         if(!$OSD_){$OSD_ = "N/A"}
 
-        $Table_results += "$($Name_)| $($Brand_Name_)| $($MCU_)| $($MPU_)| $($TARGET_)| $($OSD_)|$($Price) | 'No'| [Link]($($url))"
+        $Table_results += "$($Name_)| $($Brand_Name_)| No | [Link]($($url)) | $($MCU_) | $($MPU_) | $($TARGET_) | $($OSD_) | $($Price)"
 
     }
 
