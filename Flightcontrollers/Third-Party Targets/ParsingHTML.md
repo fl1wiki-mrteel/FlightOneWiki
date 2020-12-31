@@ -149,7 +149,7 @@ function Parse-SingleURL($url){
 
 }
 
-Parse-SingleURL -url "https://www.banggood.com/HAKRC-F411-20A-AIO-26mm-Support-PWM-Multishot-Oneshot-DSHOT-7g-w-or-barometer-for-Toothpick-FPV-Racing-RC-Drone-p-1711816.html?rmmds=stop_sale_viewalsoview&cur_warehouse=CN"
+Parse-SingleURL -url "https://www.banggood.com/GEPRC-GEP-20A-F4-AIO-F4-MPU6000-Flight-Controller-OSD-20A-Blheli_S-2-4S-Brushless-ESC-26_526_5mm-for-Rocket-Lite-3-5-Inch-Cinewhoop-Toothpick-FPV-Racing-Drone-p-1607659.html?rmmds=detail-topright-recommendation&cur_warehouse=CN"
 
 
 
