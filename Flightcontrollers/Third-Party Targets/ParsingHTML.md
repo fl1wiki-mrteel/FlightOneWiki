@@ -149,7 +149,7 @@ function Parse-SingleURL($url){
 
 }
 
-Parse-SingleURL -url "https://www.banggood.com/25_5+25_5mm-AuroraRC-F411-AIO-F4-Flight-Controller-OSD-30A-2-4S-Blheli_-S-Brushless-ESC-for-RC-Drone-FPV-Racing-p-1667206.html?rmmds=myorder&cur_warehouse=CN"
+Parse-SingleURL -url "https://www.banggood.com/HAKRC-F411-20A-AIO-26mm-Support-PWM-Multishot-Oneshot-DSHOT-7g-w-or-barometer-for-Toothpick-FPV-Racing-RC-Drone-p-1711816.html?rmmds=stop_sale_viewalsoview&cur_warehouse=CN"
 
 
 
