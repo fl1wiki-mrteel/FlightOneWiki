@@ -149,7 +149,7 @@ function Parse-SingleURL($url){
 
 }
 
-Parse-SingleURL -url "https://www.banggood.com/16x16mm-JHEMCU-GHF13-AIO-F4-OSD-Flight-Controller-Built-in-13A-Blheli_S-2-4S-4-In-1-Brushless-ESC-for-RC-Drone-FPV-Racing-p-1782009.html?cur_warehouse=CN&rmmds=search"
+Parse-SingleURL -url "https://www.banggood.com/25_5+25_5mm-AuroraRC-F411-AIO-F4-Flight-Controller-OSD-30A-2-4S-Blheli_-S-Brushless-ESC-for-RC-Drone-FPV-Racing-p-1667206.html?rmmds=myorder&cur_warehouse=CN"
 
 
 
