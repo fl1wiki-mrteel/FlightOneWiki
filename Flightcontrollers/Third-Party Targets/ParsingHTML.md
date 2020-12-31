@@ -4,75 +4,152 @@
 
 #'''
 
-#[Microsoft.PowerShell.Commands.PSUserAgent].GetProperties() |
-#Select-Object Name, @{n='UserAgent';e={ [Microsoft.PowerShell.Commands.PSUserAgent]::$($_.Name) }}
-$userAgent = [Microsoft.PowerShell.Commands.PSUserAgent]::Chrome
+function Parse-MultiURL($searchstring){
 
-$links = iwr https://www.banggood.com/search/aio-flight-controller.html?from=nav -UserAgent $userAgent
-$ResultLinks = $links.links | ?{ ($_.InnerHTML -like "*AIO*") -and ($_.InnerHTML -like "*F4*")} | select title,href
+    #[Microsoft.PowerShell.Commands.PSUserAgent].GetProperties() |
+    #Select-Object Name, @{n='UserAgent';e={ [Microsoft.PowerShell.Commands.PSUserAgent]::$($_.Name) }}
+    $userAgent = [Microsoft.PowerShell.Commands.PSUserAgent]::Chrome
 
-$Table_results = @()
-$Table_results += "Name|Brand name|FalcoX Tested|URL|MCU|MPU/IMU|TARGET|OSD|PRICE"
-$Table_results += "-----|-----|-----|-----|-----|-----|-----|-----|-----"
+    $links = iwr https://www.banggood.com/search/$($searchstring).html?from=nav -UserAgent $userAgent
+    $ResultLinks = $links.links | ?{ ($_.InnerHTML -like "*AIO*") -and ($_.InnerHTML -like "*F4*")} | select title,href
 
-foreach($link in $ResultLinks){
+    $script:Table_results = @()
+    $script:Table_results += "Name|Brand name|FalcoX Tested|URL|MCU|MPU/IMU|TARGET|OSD|PRICE"
+    $script:Table_results += "-----|-----|-----|-----|-----|-----|-----|-----|-----"
 
+    foreach($link in $ResultLinks){
 
-    #$url = "https://www.banggood.com/Mamba-F411-AIO-F4-Flight-Controller-25A-4S-Blheli_S-DSHOT600-Brushless-ESC-Stack-comptaible-DJI-FPV-Air-Unit-25_5x25_5mm-for-Whoop-Toothpick-RC-Drone-FPV-Racing-p-1703967.html?cur_warehouse=CN&rmmds=search"
-    #$url = "https://www.banggood.com/20x20mm-JHEMCU-GHF420AIO-F4-OSD-Flight-Controller-w-or-5V-9V-BEC-and-Current-Sensor-AIO-20A-BL_S-2-6S-4In1-Brushless-ESC-Support-DJI-Air-Unit-for-RC-Drone-FPV-Racing-p-1745432.html?cur_warehouse=CN&amp;rmmds=search"
+        $url = $link.href
 
-    $url = $link.href
+        $iwr = iwr $url -UserAgent $userAgent
+        $result = ($iwr.ParsedHtml.getElementsByTagName('div') | Where{ $_.className -eq 'tab-cnt' } ).innerText
+        $Price = ($iwr.ParsedHtml.getElementsByTagName('span') | Where{ $_.className -eq 'main-price' } ).innerText
+        $Price
 
-    $iwr = iwr $url -UserAgent $userAgent
-    $result = ($iwr.ParsedHtml.getElementsByTagName('div') | Where{ $_.className -eq 'tab-cnt' } ).innerText
-    $Price = ($iwr.ParsedHtml.getElementsByTagName('span') | Where{ $_.className -eq 'main-price' } ).innerText
-    $Price
+        #Split lines
+        $a = $result.Split([Environment]::NewLine)
+        
+        #Split each line that includes ":"
+        $table = New-Object PSObject
+        Foreach($contentLine in $a){
 
-    #Split lines
-    $a = $result.Split([Environment]::NewLine)
-    
-    #Split each line that includes ":"
-    $table = New-Object PSObject
-    Foreach($contentLine in $a){
-
-        if($contentLine -like "*:*"){
-            $table | Add-Member NoteProperty -Name "$($($($contentLine -split ':')[0]).Trim())" -Value "$($($($contentLine -split ':')[1]).Trim())" -ErrorAction silentlycontinue
+            if($contentLine -like "*:*"){
+                $table | Add-Member NoteProperty -Name "$($($($contentLine -split ':')[0]).Trim())" -Value "$($($($contentLine -split ':')[1]).Trim())" -ErrorAction silentlycontinue
+            }
+            
         }
         
+        #$table | ft
+
+        #$table | select "Item *", size, "Brand*", "Mounting*", "Dimensions*", "ESC Current", "*MPU*", "*CPU*", MCU, IMU, OSD, TARGET, fw, Firmware | ft
+
+        $Name_ = $table."Item Name"
+        $Brand_Name_ = $table."Brand Name"
+        $MCU_ = $table | select "*MCU*", "*CPU*" | ?{$_ -like "*STM*"}
+        $MPU_ = $table | select "*MPU*", "*IMU*" | ?{ ($_ -like "*MPU*") -or ($_ -like "*IMC*")}
+        $TARGET_  = $table | select "*TARGET*", "*FW*", "*Firmware*" | ?{$_ -like "*F411*"}
+        $OSD_ = $table.OSD
+
+        if($TARGET_){
+
+            $MCU_ = $MCU_ -replace "@{","" -replace "}",""
+            $MPU_ = $MPU_ -replace "@{" -replace "}",""
+            $TARGET_ = $TARGET_ -replace "@{" -replace "}",""
+
+            if(!$Name_){$Name_ = "N/A"}
+            if(!$Brand_Name_){$Brand_Name_ = "N/A"}
+            if(!$MCU_){$MCU_ = "N/A"}
+            if(!$TARGET_){$TARGET_ = "N/A"}
+            if(!$OSD_){$OSD_ = "N/A"}
+
+            $script:Table_results += "$($Name_)| $($Brand_Name_)| No | [Link]($($url)) | $($MCU_) | $($MPU_) | $($TARGET_) | $($OSD_) | $($Price)"
+
+        }
+
+        $table = ""
     }
-    
-    #$table | ft
 
-    #$table | select "Item *", size, "Brand*", "Mounting*", "Dimensions*", "ESC Current", "*MPU*", "*CPU*", MCU, IMU, OSD, TARGET, fw, Firmware | ft
+    $Table_results | Out-file "C:\Users\teel\Desktop\FL1Lic.csv" -Encoding utf8
 
-    $Name_ = $table."Item Name"
-    $Brand_Name_ = $table."Brand Name"
-    $MCU_ = $table | select "*MCU*", "*CPU*" | ?{$_ -like "*STM*"}
-    $MPU_ = $table | select "*MPU*", "*IMU*" | ?{ ($_ -like "*MPU*") -or ($_ -like "*IMC*")}
-    $TARGET_  = $table | select "*TARGET*", "*FW*", "*Firmware*" | ?{$_ -like "*F411*"}
-    $OSD_ = $table.OSD
+    import-csv "C:\Users\teel\Desktop\FL1Lic.csv" -delimiter "|"
 
-    if($TARGET_){
 
-        $MCU_ = $MCU_ -replace "@{","" -replace "}",""
-        $MPU_ = $MPU_ -replace "@{" -replace "}",""
-        $TARGET_ = $TARGET_ -replace "@{" -replace "}",""
-
-        if(!$Name_){$Name_ = "N/A"}
-        if(!$Brand_Name_){$Brand_Name_ = "N/A"}
-        if(!$MCU_){$MCU_ = "N/A"}
-        if(!$TARGET_){$TARGET_ = "N/A"}
-        if(!$OSD_){$OSD_ = "N/A"}
-
-        $Table_results += "$($Name_)| $($Brand_Name_)| No | [Link]($($url)) | $($MCU_) | $($MPU_) | $($TARGET_) | $($OSD_) | $($Price)"
-
-    }
-
-    $table = ""
 }
 
-$Table_results | Out-file "C:\Users\teel\Desktop\FL1Lic.csv" -Encoding utf8
-
-import-csv "C:\Users\teel\Desktop\FL1Lic.csv" -delimiter "|"
+Parse-MultiURL -searchstring "AIO Flight Controller"
 
 #'''
+
+
+
+#Single url
+
+function Parse-SingleURL($url){
+
+    #[Microsoft.PowerShell.Commands.PSUserAgent].GetProperties() |
+    #Select-Object Name, @{n='UserAgent';e={ [Microsoft.PowerShell.Commands.PSUserAgent]::$($_.Name) }}
+    $userAgent = [Microsoft.PowerShell.Commands.PSUserAgent]::Chrome
+
+    $script:Table_results = @()
+    $script:Table_results += "Name|Brand name|FalcoX Tested|URL|MCU|MPU/IMU|TARGET|OSD|PRICE"
+    $script:Table_results += "-----|-----|-----|-----|-----|-----|-----|-----|-----"
+
+        #$url = "https://www.banggood.com/Mamba-F411-AIO-F4-Flight-Controller-25A-4S-Blheli_S-DSHOT600-Brushless-ESC-Stack-comptaible-DJI-FPV-Air-Unit-25_5x25_5mm-for-Whoop-Toothpick-RC-Drone-FPV-Racing-p-1703967.html?cur_warehouse=CN&rmmds=search"
+
+        $iwr = iwr $url -UserAgent $userAgent
+        $result = ($iwr.ParsedHtml.getElementsByTagName('div') | Where{ $_.className -eq 'tab-cnt' } ).innerText
+        $Price = ($iwr.ParsedHtml.getElementsByTagName('span') | Where{ $_.className -eq 'main-price' } ).innerText
+        $Price
+
+        #Split lines
+        $a = $result.Split([Environment]::NewLine)
+        
+        #Split each line that includes ":"
+        $table = New-Object PSObject
+        Foreach($contentLine in $a){
+
+            if($contentLine -like "*:*"){
+                $table | Add-Member NoteProperty -Name "$($($($contentLine -split ':')[0]).Trim())" -Value "$($($($contentLine -split ':')[1]).Trim())" -ErrorAction silentlycontinue
+            }
+            
+        }
+        
+        #$table | ft
+
+        #$table | select "Item *", size, "Brand*", "Mounting*", "Dimensions*", "ESC Current", "*MPU*", "*CPU*", MCU, IMU, OSD, TARGET, fw, Firmware | ft
+
+        $Name_ = $table."Item Name"
+        $Brand_Name_ = $table."Brand Name"
+        $MCU_ = $table | select "*MCU*", "*CPU*" | ?{$_ -like "*STM*"}
+        $MPU_ = $table | select "*MPU*", "*IMU*" | ?{ ($_ -like "*MPU*") -or ($_ -like "*IMC*")}
+        $TARGET_  = $table | select "*TARGET*", "*FW*", "*Firmware*" | ?{$_ -like "*F411*"}
+        $OSD_ = $table.OSD
+
+        if($TARGET_){
+
+            $MCU_ = $MCU_ -replace "@{","" -replace "}",""
+            $MPU_ = $MPU_ -replace "@{" -replace "}",""
+            $TARGET_ = $TARGET_ -replace "@{" -replace "}",""
+
+            if(!$Name_){$Name_ = "N/A"}
+            if(!$Brand_Name_){$Brand_Name_ = "N/A"}
+            if(!$MCU_){$MCU_ = "N/A"}
+            if(!$TARGET_){$TARGET_ = "N/A"}
+            if(!$OSD_){$OSD_ = "N/A"}
+
+            $script:Table_results += "$($Name_)| $($Brand_Name_)| No | [Link]($($url)) | $($MCU_) | $($MPU_) | $($TARGET_) | $($OSD_) | $($Price)"
+
+        }
+
+        $table = ""
+    
+
+    $Table_results | Out-file "C:\Users\teel\Desktop\FL1LicSingle.csv" -Encoding utf8
+    import-csv "C:\Users\teel\Desktop\FL1LicSingle.csv" -delimiter "|"
+
+}
+
+Parse-SingleURL -url "https://www.banggood.com/16x16mm-JHEMCU-GHF13-AIO-F4-OSD-Flight-Controller-Built-in-13A-Blheli_S-2-4S-4-In-1-Brushless-ESC-for-RC-Drone-FPV-Racing-p-1782009.html?cur_warehouse=CN&rmmds=search"
+
+
+
