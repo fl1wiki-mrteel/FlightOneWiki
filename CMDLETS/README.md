@@ -1,5 +1,8 @@
 # FalcoX CMDLET´s
 
+[Lookup tables "LUTs"](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/LUT)
+
+
 cmdlet|minimum version|default|function|Available values|note
 ----- | ----- | ----- | ----- | ----- | ----
 RESETCONFIG | N/A | N/A | Resets all config | N/A | N/A
