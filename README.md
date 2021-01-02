@@ -19,6 +19,7 @@ Check out the Todo list -> [TodoList](https://github.com/fl1wiki-mrteel/FlightOn
         - [MillivoltOSD](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/Flightcontrollers/MillivoltOSD/Pinout)
     - [cmdlet](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/CMDLETS)
     - [configurators](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/Configurator)
+    - [Lookup tables "LUTs"](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/LUT)
 
 # Features
 
