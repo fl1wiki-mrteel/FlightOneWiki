@@ -37,7 +37,7 @@ Get-FalcoXEscProto -Protocol Multishot
 
 ## ESC Protocols
 
-Dump example:
+Configuration example, sets esc protocol to DSHOT8:
 ```
 SET esc_protocol=5
 ```
@@ -55,7 +55,7 @@ Proshot16 | 7 | N/A
 
 ## Serial Protocol
 
-Dump example:
+Configuration example, sets UART #1 to "off":
 ```
 SET uart1_protocol=0
 ```
@@ -83,7 +83,7 @@ null | 17 | N/A
 
 ## Filter
 
-Dump example:
+Configuration example, sets filter #1 type to "FakeKalman":
 ```
 SET filt1_type=6
 ```
@@ -101,7 +101,7 @@ BrickWall | 7 | N/A
 
 ## RC Filter (RC Smooth)
 
-Dump example:
+Configuration example, sets RC Smooth type to "none":
 ```
 SET rc_smoothing_type=0
 ```
@@ -115,7 +115,7 @@ old | 3 | N/A
 
 ## Filter AA Strenght
 
-Dump example:
+Configuration example, sets AA Strength (Gyro) to "off" and D-term AA Strength to "off":
 ```
 SET aa_strength=0
 SET d_term_aa_strength=0
@@ -132,7 +132,7 @@ Ultra High | 5 | N/A
 
 ## Quopa strenght
 
-Dump example:
+Configuration example, sets Quopa strength to "Medium":
 ```
 SET auto_quopa_strength=1
 ```
