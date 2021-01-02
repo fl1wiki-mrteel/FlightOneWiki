@@ -2,7 +2,7 @@
 These tables are used to illustrate/map the features array index value.
 for e.g. while parsing backup/dump file.
 
-´´´Powershell
+```Powershell
 
 Function Get-FalcoXEscProto($Protocol){
     switch ($Protocol)
@@ -33,7 +33,7 @@ Get-FalcoXEscProto -Protocol 0
 Get-FalcoXEscProto -Protocol Multishot
 #Result: 0
 
-´´´
+```
 
 ## ESC Protocols
 
