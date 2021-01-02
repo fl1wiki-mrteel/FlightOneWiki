@@ -37,6 +37,11 @@ Get-FalcoXEscProto -Protocol Multishot
 
 ## ESC Protocols
 
+Dump example:
+```
+SET esc_protocol=5
+```
+
 Name | Array Index | Note
 ----- | ----- | -----
 Multishot | 0 | N/A
@@ -49,6 +54,11 @@ Proshot32 | 6 | N/A
 Proshot16 | 7 | N/A
 
 ## Serial Protocol
+
+Dump example:
+```
+SET uart1_protocol=0
+```
 
 Name | Array Index | Note
 ----- | ----- | -----
@@ -73,6 +83,11 @@ null | 17 | N/A
 
 ## Filter
 
+Dump example:
+```
+SET filt1_type=6
+```
+
 Name | Array Index | Note
 ----- | ----- | -----
 Predict | 0 | N/A
@@ -86,6 +101,11 @@ BrickWall | 7 | N/A
 
 ## RC Filter (RC Smooth)
 
+Dump example:
+```
+SET rc_smoothing_type=0
+```
+
 Name | Array Index | Note
 ----- | ----- | -----
 None | 0 | N/A
@@ -94,6 +114,12 @@ Filter | 2 | N/A
 old | 3 | N/A
 
 ## Filter AA Strenght
+
+Dump example:
+```
+SET aa_strength=0
+SET d_term_aa_strength=0
+```
 
 Name | Array Index | Note
 ----- | ----- | -----
@@ -105,6 +131,11 @@ High | 4 | N/A
 Ultra High | 5 | N/A
 
 ## Quopa strenght
+
+Dump example:
+```
+SET auto_quopa_strength=1
+```
 
 Name | Array Index | Note
 ----- | ----- | -----
