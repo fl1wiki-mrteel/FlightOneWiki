@@ -2,6 +2,39 @@
 These tables are used to illustrate/map the features array index value.
 for e.g. while parsing backup/dump file.
 
+´´´Powershell
+
+Function Get-FalcoXEscProto($Protocol){
+    switch ($Protocol)
+    {
+        0 { $result = 'Multishot' }
+        1 { $result = 'DSHOT64' }
+        2 { $result = 'DSHOT32' }
+        3 { $result = 'DSHOT1200' }
+        4 { $result = 'DSHOT600' }
+        5 { $result = 'Dshot8' }
+        6 { $result = 'Proshot32' }
+        7 { $result = 'Proshot16' }
+        Multishot { $result = 0 }
+        DSHOT64 { $result = 1 }
+        DSHOT32 { $result = 2 }
+        DSHOT1200 { $result = 3 }
+        DSHOT600 { $result = 4 }
+        Dshot8 { $result = 5 }
+        Proshot32 { $result = 6 }
+        Proshot16 { $result = 7 }
+    }
+
+    $result
+}
+
+Get-FalcoXEscProto -Protocol 0
+#Result: Multishot
+Get-FalcoXEscProto -Protocol Multishot
+#Result: 0
+
+´´´
+
 ## ESC Protocols
 
 Name | Array Index | Note
