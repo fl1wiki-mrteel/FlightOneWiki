@@ -66,15 +66,18 @@ This step requires you to hover your quadcopter, do it in a safe way.
 
 ## GPS Modules
 
-Beitian BN-180 Micro GPS
+TBS M8.2 </br>
+![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/TBS_M8.2.JPG)
+ </br>
+Beitian BN-180 Micro GPS </br>
 ![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/BN-180.JPG)
-
-Beitian BN-220 Micro GPS
+ </br>
+Beitian BN-220 Micro GPS </br>
 ![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/BN-220.JPG)
-
-Matek Systems M8Q-5883 SAM-M8Q GPS & QMC5883L Compass Module
+ </br>
+Matek Systems M8Q-5883 SAM-M8Q GPS & QMC5883L Compass Module </br>
 ![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/MATEKSYS-M8Q-5883.JPG)
-
+ </br>
 
 ## External links
  
