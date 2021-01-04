@@ -6,6 +6,10 @@ Each GPS is different and may require 3.3v or 5v for power, please check your sp
 - RX from GPS to TX from flight controller
 - TX from GPS to RX from flight controller
 
+ 
+Unlike the RevoltOSD and MillivoltOSD the Lightning H7 does NOT require any specific UART for GPS. 
+<b>BUT as of now you should use UART 3.</b>
+
 
 
 ## External links
