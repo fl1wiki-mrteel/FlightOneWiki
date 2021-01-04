@@ -25,6 +25,9 @@ Check out the Todo list -> [TodoList](https://github.com/fl1wiki-mrteel/FlightOn
             - [Lightning H7](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Lightning%20H7/Connection/GPS)
             - [RevoltOSD](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/RevoltOSD/Connection/GPS)
             - [MillivoltOSD](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/MillivoltOSD/Connection/GPS)
+            - [Third-Party Targets](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Third-Party%20Targets)
+                - [MAMBAF411](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Third-Party%20Targets/MAMBAF411/Connection/GPS)
+                - [MATEKF411](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Third-Party%20Targets/MATEKF411/Connection/GPS)
         - Enable GPS
             - [FalcoX](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Features/GPS)
 
