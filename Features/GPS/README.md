@@ -1,13 +1,18 @@
 # GPS
 
-- GPS
+- [GPS](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Features/GPS)
+    - [GPS Modules](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Features/GPS#gps-modules)
     - Connect GPS
         - [Lightning H7](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Lightning%20H7/Connection/GPS)
         - [RevoltOSD](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/RevoltOSD/Connection/GPS)
         - [MillivoltOSD](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/MillivoltOSD/Connection/GPS)
+        - [Third-Party Targets](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Third-Party%20Targets)
+            - [MAMBAF411](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Third-Party%20Targets/MAMBAF411/Connection/GPS)
+                - [MAMBA F411 AIO](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Third-Party%20Targets/MAMABAF411/Flightcontrollers/MAMBA%20F411%20AIO/Connection/GPS)
+            - [MATEKF411](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Third-Party%20Targets/MATEKF411/Connection/GPS)
+                - [Aurora RC](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Third-Party%20Targets/MATEKF411/Flightcontrollers/AuroraRC%20F411%20AIO/Connection/GPS)
     - Enable GPS
         - [FalcoX](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Features/GPS)
-
 
 # Enable GPS (FalcoX)
 
