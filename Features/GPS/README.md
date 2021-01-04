@@ -73,7 +73,7 @@ Beitian BN-220 Micro GPS
 ![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/BN-220.JPG)
 
 Matek Systems M8Q-5883 SAM-M8Q GPS & QMC5883L Compass Module
-![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/MATEKSYS-M8Q-5883.JPG.JPG)
+![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/MATEKSYS-M8Q-5883.JPG)
 
 
 ## External links
