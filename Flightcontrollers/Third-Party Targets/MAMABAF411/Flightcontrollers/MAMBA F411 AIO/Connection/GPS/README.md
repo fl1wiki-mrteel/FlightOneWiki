@@ -2,8 +2,9 @@
 
 This FC only has two (2) UARTS
 
-- You will need one (1) UART for your radio link (RC)
-- And one (1) UART for the GPS module
+- UART 1 (TX1/RX1) is used for RC-link
+- UART 2 (TX2/RX2) can be used for GPS or Smart Audio
+
 
 If using TBS CRSF and TBS Unify you could get Smart Audio functionality by daisy chaining them.
 
