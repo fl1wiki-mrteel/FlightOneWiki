@@ -21,6 +21,7 @@ Check out the Todo list -> [TodoList](https://github.com/fl1wiki-mrteel/FlightOn
     - [configurators](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/Configurator)
     - [Lookup tables "LUTs"](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/LUT)
     - [GPS](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Features/GPS)
+        - [GPS Modules](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Features/GPS#gps-modules)
         - Connect GPS
             - [Lightning H7](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Lightning%20H7/Connection/GPS)
             - [RevoltOSD](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/RevoltOSD/Connection/GPS)
