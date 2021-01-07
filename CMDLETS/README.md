@@ -11,8 +11,13 @@ RESETCONFIG | N/A | N/A | Resets all config | N/A | N/A
 RESETCONFIG CUSTOM | N/A | N/A | Resets YOUR profile | N/A | N/A
 RESET_CONFIG | N/A | N/A | Resets all config | N/A | new cmdlet?
 RESET_CONFIG CUSTOM | N/A | N/A | Resets YOUR profile | N/A | new cmdlet?
-RESET_WIZARD | N/A | N/A | Resets wizard | N/A | N/A
 RESET_WIZARD RADIO | N/A | N/A | Resets Radio wizard | N/A | N/A
+RESET_WIZARD VTX | N/A | N/A | Resets VTX wizard | N/A | N/A
+RESET_WIZARD MOTOR | N/A | N/A | Resets motor wizard | N/A | N/A
+RESET_WIZARD TELEM | N/A | N/A | Resets Telemetry wizard | N/A | N/A
+RESET_WIZARD FC | N/A | N/A | Resets Flightcontroller wizard | N/A | N/A
+RESET_WIZARD VIDEO | N/A | N/A | Resets Video/FPV camera wizard | N/A | N/A
+RESET_WIZARD LEVEL | N/A | N/A | Resets Level ("Horizon" mode) wizard | N/A | N/A
 DFU | N/A | N/A | DFU Flash | N/A | N/A
 NO_BOOT|Version 1.2.2 (Bootloader)|N/A|Troubleshooting|N/A|N/A
 OSDON | N/A | N/A |OSD over serial|None|N/A
