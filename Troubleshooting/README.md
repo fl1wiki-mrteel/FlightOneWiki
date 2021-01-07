@@ -4,7 +4,7 @@
 
 ## Radio setup/wizard
 
-<b>Problem:</b>
+<b>Problem:</b> Radio/Reciever not detected</br>
 You have a Crossfire RX:
 - CRSF has a green light
 - telemetry working
