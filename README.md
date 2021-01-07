@@ -33,7 +33,21 @@ Check out the Todo list -> [TodoList](https://github.com/fl1wiki-mrteel/FlightOn
                     - [Aurora RC](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Third-Party%20Targets/MATEKF411/Flightcontrollers/AuroraRC%20F411%20AIO/Connection/GPS)
         - Enable GPS
             - [FalcoX](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Features/GPS)
+            
+# Troubleshooting
 
+- Troubleshooting
+    - [Radio setup/wizard](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Troubleshooting#radio-setupwizard)
+    - [Radio RSSI](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Troubleshooting#radio-rssi)
+- Troubleshooting
+    - [Lightning H7](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Lightning%20H7/Troubleshooting)
+        - [No folders/Startup tones](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Lightning%20H7/Troubleshooting#lightning-h7---no-folders-or-startup-tones)
+    - [RevoltOSD](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/RevoltOSD/Troubleshooting)
+    - [MilliVoltOSD](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/RevoltOSD/Troubleshooting)    
+    - [Third-Party Targets](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Third-Party%20Targets/Troubleshooting) 
+
+
+</br>
 
 # Features
 
@@ -122,22 +136,6 @@ Version 10.1.0.4984 Alpha5 | FIX/ADD | * Adds support for Ghost Protocol </br> *
     - TBS
         - Unify Pro HV
         - Unify Pro32 Nano
-
-
-# Troubleshooting
-
-- Troubleshooting
-    - [Radio setup/wizard](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Troubleshooting#radio-setupwizard)
-    - [Radio RSSI](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Troubleshooting#radio-rssi)
-- Troubleshooting
-    - [Lightning H7](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Lightning%20H7/Troubleshooting)
-        - [No folders/Startup tones](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Lightning%20H7/Troubleshooting#lightning-h7---no-folders-or-startup-tones)
-    - [RevoltOSD](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/RevoltOSD/Troubleshooting)
-    - [MilliVoltOSD](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/RevoltOSD/Troubleshooting)    
-    - [Third-Party Targets](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Third-Party%20Targets/Troubleshooting) 
-
-
-</br>
 
 
 # Videos
