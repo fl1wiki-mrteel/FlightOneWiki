@@ -11,7 +11,7 @@ You have a Crossfire RX:
 - telemetry working
 - CRSF ch1 (CRSF TX) connected to TX1 on Flightcontroller  
 
-<b>Solution:</b>
+<b>Solution:</b></br>
 Open FalcoX Configurator and paste the following lines one by one. Then restart your flightcontroller and adjust the motor directions in OSD menu.
 ```
 
@@ -64,3 +64,24 @@ Set setup wizard as completed:
 ```
 SET wizard_flags=127
 ```
+
+
+## Radio RSSI
+
+<b>Problem:</b> RSSI stuck at xx% in osd </br>
+</br>
+<b>Solution:</b></br>
+- Double check nothing is sent on Channel 8 from your transmitter/radio.
+- If using TBS Crossfire
+    - Make sure your RX is sending RSSI, LQ or LQ/RSSI on Ch8
+
+![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/CRSF_NANO_CH8.JPG)
+
+
+
+
+
+
+
+
+ 
