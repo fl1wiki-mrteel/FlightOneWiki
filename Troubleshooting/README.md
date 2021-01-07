@@ -4,14 +4,20 @@
 
 ## Radio setup/wizard
 
-You have a Crossfire RX, green light, telemetry working.
- - CRSF ch1 (CRSF TX) connected to TX1 on Flightcontroller  
+<b>Problem:</b>
+You have a Crossfire RX:
+- CRSF has a green light
+- telemetry working
+- CRSF ch1 (CRSF TX) connected to TX1 on Flightcontroller  
 
+<b>Solution:</b>
+Open FalcoX Configurator and paste the following lines one by one. Then restart your flightcontroller and adjust the motor directions in OSD menu.
 ```
 
 SET uart1_protocol=2
 SET uart1_pinswap=1
 SET wizard_flags=127
+SAVE
 
 ```
 
@@ -53,3 +59,7 @@ Edit "pinswap" to match your pad.
 SET uart<number>_pinswap=<if tx pad, 1. if rx pad 0>
 ```
 
+Set setup wizard as completed:
+```
+SET wizard_flags=127
+```
