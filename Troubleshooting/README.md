@@ -15,7 +15,8 @@ You have a Crossfire RX:
     - On RevoltOSD/Millivolt bridge TX1/NOR
 
 <b>Solution:</b></br>
-Open FalcoX Configurator and paste the following lines one by one. Then restart your flightcontroller.
+Open FalcoX Configurator and paste the following lines one by one. Then restart your flightcontroller.</br>
+This solution will result in your sticks not being calibrated, so not a long term fix.</br>
 
 ```
 
