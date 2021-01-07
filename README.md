@@ -50,6 +50,14 @@ Check out the Todo list -> [TodoList](https://github.com/fl1wiki-mrteel/FlightOn
 Version | Type | Feature
 ------------ | ------------- | -------------
 10.1.0.4729 | VTX | New Quick VTX Menu, can be accessed by holding all stick in the bottom right, opens directly to the VTX menu for quick channel changes
+Version 10.1.0.4984 Alpha5 | FIX/ADD |
+- Adds support for Ghost Protocol
+- Fixes Issue that could Cause Error Code 2 to appear when arming
+- Fixed Issue introduced in Alpha 1 that caused 2 motors not to initialize
+- Fixed Issue introduced in Alpha 1 that caused Adressable LEDs not to work on F4 targets
+- Fixed Issue with MatekF411 targets that causes Dshot signals to be incorrect, eg. Dshot600 was being outputting as dshot300
+Changes
+- Various Backend and flight related optmizations, should greatly improve flight characteristics, especially on Revolt and Lightning Targets
 
 # Tuning
 
