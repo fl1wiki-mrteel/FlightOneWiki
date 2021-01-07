@@ -125,6 +125,8 @@ Version | Type | Feature
 # Troubleshooting
 
 - Troubleshooting
+    - [Radio setup/wizard](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Troubleshooting)
+- Troubleshooting
     - [Lightning H7](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Lightning%20H7/Troubleshooting)
         - [No folders/Startup tones](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Lightning%20H7/Troubleshooting#lightning-h7---no-folders-or-startup-tones)
     - [RevoltOSD](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/RevoltOSD/Troubleshooting)
