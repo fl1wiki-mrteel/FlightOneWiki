@@ -7,8 +7,8 @@
 <b>Problem:</b> Radio/Reciever not detected</br>
 </br>
 You have a Crossfire RX:
-- CRSF has a green light
-- telemetry working
+- CRSF has a solid (not blinking) green light (If blinking, do a factory reset and bind again)
+- Telemetry working
 - CRSF ch1 (CRSF TX) connected to TX1 on Flightcontroller
     - Almost all flightcontrollers want you to use UART1 for your reciever, some MatekF411 boards may want you to use UART2.
 - UART is uninverted (normal/nor)
