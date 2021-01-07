@@ -7,21 +7,21 @@
 You have a Crossfire RX, green light, telemetry working.
  - CRSF ch1 (CRSF TX) connected to TX1 on Flightcontroller  
 
-´´´
+```
 
 SET uart1_protocol=2
 SET uart1_pinswap=1
 SET wizard_flags=127
 
-´´´
+```
 
 ### Radio setup/wizard - how to
 
 Edit to match your UART-number, and protocol is found in table below
 
-´´´
+```
 SET uart<number>_protocol=<Array Index>
-´´´
+```
 
 Name | Array Index | Note
 ----- | ----- | -----
@@ -49,7 +49,7 @@ Edit "pinswap" to match your pad.
 - if TX is used as RX eg for reciever (RX), pinswap should be 1
 - if RX is used pinswap should be 0
 
-´´´
+```
 SET uart<number>_pinswap=<if tx pad, 1. if rx pad 0>
-´´´
+```
 
