@@ -83,7 +83,7 @@ SET wizard_flags=127
 
 
 ## External links
-
+- [Get Crossfire RSSI in Flightone OSD, easier then you think! - 2dogrc](https://www.youtube.com/watch?v=3qxWdBMQSNU)
 
 
 
