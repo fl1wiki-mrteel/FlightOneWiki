@@ -15,7 +15,8 @@ You have a Crossfire RX:
     - On RevoltOSD/Millivolt bridge TX1/NOR
 
 <b>Solution:</b></br>
-Open FalcoX Configurator and paste the following lines one by one. Then restart your flightcontroller and if this is your initial setup you should adjust the motor directions in OSD menu.
+Open FalcoX Configurator and paste the following lines one by one. Then restart your flightcontroller.
+
 ```
 
 SET uart1_protocol=2
@@ -23,6 +24,12 @@ SET uart1_pinswap=1
 SET wizard_flags=127
 SAVE
 
+```
+
+If this is your initial setup you should do the motor mapping wizard,  "RESET_WIZARD MOTOR".</br>
+Open FalcoX Configurator and paste the following lines one by one. Then restart your flightcontroller.
+```
+RESET_WIZARD MOTOR
 ```
 
 ### Radio setup/wizard - how to
