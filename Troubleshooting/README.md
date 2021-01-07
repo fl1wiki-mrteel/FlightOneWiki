@@ -9,7 +9,10 @@
 You have a Crossfire RX:
 - CRSF has a green light
 - telemetry working
-- CRSF ch1 (CRSF TX) connected to TX1 on Flightcontroller  
+- CRSF ch1 (CRSF TX) connected to TX1 on Flightcontroller
+    - Almost all flightcontrollers want you to use UART1 for your reciever, some MatekF411 boards may want you to use UART2.
+- UART is uninverted (normal/nor)
+    - On RevoltOSD/Millivolt bridge TX1/NOR
 
 <b>Solution:</b></br>
 Open FalcoX Configurator and paste the following lines one by one. Then restart your flightcontroller and adjust the motor directions in OSD menu.
@@ -79,6 +82,7 @@ SET wizard_flags=127
 
 
 
+## External links
 
 
 

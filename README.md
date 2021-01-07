@@ -126,6 +126,7 @@ Version | Type | Feature
 
 - Troubleshooting
     - [Radio setup/wizard](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Troubleshooting#radio-setupwizard)
+    - [Radio RSSI](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Troubleshooting#radio-rssi)
 - Troubleshooting
     - [Lightning H7](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Lightning%20H7/Troubleshooting)
         - [No folders/Startup tones](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Lightning%20H7/Troubleshooting#lightning-h7---no-folders-or-startup-tones)
