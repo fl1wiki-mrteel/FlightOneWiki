@@ -19,6 +19,7 @@
 ## RTH Wizard
 
 ! This guide requires you to hover your quadcopter for 5 sec!
+- You can always change the throttle percent for hover after the wizard finishes
 
 Double check that GPS is found on a UART
 
