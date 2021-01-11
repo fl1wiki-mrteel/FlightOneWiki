@@ -33,6 +33,7 @@ Check out the Todo list -> [TodoList](https://github.com/fl1wiki-mrteel/FlightOn
                     - [Aurora RC](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Third-Party%20Targets/MATEKF411/Flightcontrollers/AuroraRC%20F411%20AIO/Connection/GPS)
         - Enable GPS
             - [FalcoX](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Features/GPS)
+    - [Telemetry RC Link - (Not available in FalcoX)](#)
             
 # Troubleshooting
 
