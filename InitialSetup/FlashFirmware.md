@@ -30,10 +30,11 @@ Flashing firmware to the H7 can be done 2 ways:
 
 ![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/download_firmware.JPG)
 
-- Navigate to Flash/Updating and click the gear wheel:
+- Navigate to Flashing and click the gear wheel (top right):
 
 ![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/configurator_manual_flash.png)
 
+- Select your downloaded firmware file.
 
 
 
