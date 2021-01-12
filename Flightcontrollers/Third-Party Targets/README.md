@@ -28,17 +28,6 @@
     - IMU: MPU6000
     - OSD: AT7456E
 
-
-## STM32F405
-
-- OMNIBUSF405SD
-    - Target: OMNIBUSF405SD
-    - MCU: STM32F405
-    - IMU: MPU6000
-    - OSD: AT7456E
-
-
-
 ## Available Third-Party Boards (F411)
 
 Name|Brand name|FalcoX Tested|URL|MCU|MPU/IMU|TARGET|OSD|PRICE
@@ -61,8 +50,20 @@ N/A| N/A| No | [Link](https://www.banggood.com/FLYWOO-GOKU-GN413S-F411-F4-Flight
 N/A| FLYWOO| No | [Link](https://www.banggood.com/25_5x25_5mm-FLYWOO-GOKU-GN413S-Stack-AIO-2-4S-F4-Flight-Controller-13A-ESC-VTX625-25-or-50-or-100-or-200-or-450mW-Switchable-for-Toothpick-FPV-Racing-Drone-p-1697083.html?cur_warehouse=CN&amp;rmmds=search) | MCU=STM32F411; ESC MCU=BB21F16G; *CPU*= | *MPU*=; IMU=MPU6000 gyro/accelerometer (SPI) | Firmware target=FLYWOOF411; *FW*= | BetaFlight OSD w/ AT7456E chip | US$00.00
 
 
+## STM32F405
+
+- OMNIBUSF405SD
+    - Target: OMNIBUSF405SD
+    - MCU: STM32F405
+    - IMU: MPU6000
+    - OSD: AT7456E
+
 ## Available Third-Party Boards (F405)
 
 PRICE (USD) | Name|Brand name|FalcoX Tested|URL|MCU|MPU/IMU|TARGET|OSD
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-13.00 | Omnibus F4SD| Omnibus | Alpha | [Link](https://www.banggood.com/Omnibus-F4SD-32K-Betaflight_3_2_0-STM32-F405-Flight-Controller-OSD-5V-3A-BEC-30_5X30_5mm-p-1211677.html?cur_warehouse=CN&amp;rmmds=search) | N/A | *MPU*=; *IMU*= | Firmware=OMNIBUSF4SD | N/A
+13.00 | Omnibus F4SD| Omnibus | Alpha | [Link](https://www.banggood.com/Omnibus-F4SD-32K-Betaflight_3_2_0-STM32-F405-Flight-Controller-OSD-5V-3A-BEC-30_5X30_5mm-p-1211677.html?cur_warehouse=CN&amp;rmmds=search) | STM32F405 | MPU6000 | Firmware=OMNIBUSF4SD | N/A
+25.00 | F4 G2 Flight Controller| XRotor| No | [Link](https://www.banggood.com/Hobbywing-XRotor-Micro-OMNIBUS-F4-G2-Flight-Controller-OSD-STM32F405-for-RC-Drone-FPV-Racing-p-1310423.html?cur_warehouse=CN&amp;rmmds=search) | STM32F405 | ICM20602 | *TARGET*=; *FW*=; Firmware=OMNIBUSF4SD | Built-in
+35.00 | XRotor F405 G3 Flight Controller| Hobbywing| No | [Link](https://www.banggood.com/Hobbywing-XRotor-F405-G3-Omnibus-F4-Flight-Controller-OSD-w-12V-BEC-30_5x30_5mm-for-RC-FPV-Racing-Drone-p-1540897.html?cur_warehouse=CN&amp;rmmds=search) | STM32F405 | ICM20602 | *TARGET*=; *FW*=; Firmware=OMNIBUSF4SD | Built-in
+
+

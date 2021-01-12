@@ -3,7 +3,6 @@
 
 
 #'''
-
 function Parse-MultiURL($searchstring,$fwtarget, $MCUModel){
 
     #[Microsoft.PowerShell.Commands.PSUserAgent].GetProperties() |
@@ -15,7 +14,7 @@ function Parse-MultiURL($searchstring,$fwtarget, $MCUModel){
     $ResultLinks = $links.links | ?{($_.InnerHTML -like "*$($MCUModel)*")} | select title,href
 
     $script:Table_results = @()
-    $script:Table_results += "Name|Brand name|FalcoX Tested|URL|MCU|MPU/IMU|TARGET|OSD|PRICE"
+    $script:Table_results += "PRICE (USD) | Name|Brand name|FalcoX Tested|URL|MCU|MPU/IMU|TARGET|OSD"
     $script:Table_results += "-----|-----|-----|-----|-----|-----|-----|-----|-----"
 
     foreach($link in $ResultLinks){
@@ -67,7 +66,7 @@ function Parse-MultiURL($searchstring,$fwtarget, $MCUModel){
             if(!$TARGET_){$TARGET_ = "N/A"}
             if(!$OSD_){$OSD_ = "N/A"}
 
-            $script:Table_results += "$($Name_)| $($Brand_Name_)| No | [Link]($($url)) | $($MCU_) | $($MPU_) | $($TARGET_) | $($OSD_) | $($Price)"
+            $script:Table_results += "$($Price) | $($Name_)| $($Brand_Name_)| No | [Link]($($url)) | $($MCU_) | $($MPU_) | $($TARGET_) | $($OSD_)"
 
         }
 
@@ -81,7 +80,7 @@ function Parse-MultiURL($searchstring,$fwtarget, $MCUModel){
 
 }
 
-Parse-MultiURL -searchstring "Flight controller" -fwtarget "OMNIBUSF4SD" -MCUModel "F405"
+Parse-MultiURL -searchstring "OMNIBUS F4" -fwtarget "OMNIBUSF4" -MCUModel "F405"
 Parse-MultiURL -searchstring "Flight controller" -MCUModel "F405"
 
 
