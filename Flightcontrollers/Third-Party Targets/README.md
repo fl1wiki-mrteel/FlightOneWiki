@@ -1,22 +1,5 @@
 # Third-Party Targets
 
-## Third-Party Targets
-
-MAMBAF411 FL1 License
-
-- Target: MAMBAF411
-- MCU: STM32F411CEU6
-- IMU: MPU6000
-- OSD: AT7456E
-
-MATEKF411 FL1 License 
-
-- Target: MATEKF411
-- MCU: STM32F411
-- IMU: MPU6000
-- OSD: AT7456E
-
-
 ## Flashing firmware
 1. Download and install latest FalcoX configurator
     1. [FalcoX Configurator (Alpha)](https://flightone.com/download.php?version=alpha)
@@ -31,12 +14,32 @@ MATEKF411 FL1 License
     ![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/Thirdpartytargetorder.JPG)
 
     
+## STM32F411
+
+- MAMBAF411 FL1 License
+    - Target: MAMBAF411
+    - MCU: STM32F411CEU6
+    - IMU: MPU6000
+    - OSD: AT7456E
+
+- MATEKF411 FL1 License 
+    - Target: MATEKF411
+    - MCU: STM32F411
+    - IMU: MPU6000
+    - OSD: AT7456E
+
+
+## STM32F405
+
+- OMNIBUSF405SD
+    - Target: OMNIBUSF405SD
+    - MCU: STM32F405
+    - IMU: MPU6000
+    - OSD: AT7456E
 
 
 
-
-
-## Available Third-Party Boards
+## Available Third-Party Boards (F411)
 
 Name|Brand name|FalcoX Tested|URL|MCU|MPU/IMU|TARGET|OSD|PRICE
 -----|-----|-----|-----|-----|-----|-----|-----|-----
@@ -56,3 +59,10 @@ F411 F4 Flight Controller AIO OSD BEC Built-in 12A 2-4S 4in1 ESC| AuroraRC| YES 
 F4 Flight Controller AIO OSD BEC| Geprc| No | [Link](https://www.banggood.com/16x16mm-Geprc-Stable-F411-Stack-Part-F4-Flight-Controller-AIO-OSD-BEC-for-RC-Drone-FPV-Racing-p-1564456.html?cur_warehouse=CN&amp;rmmds=search) | MCU=STM32F411; *CPU*= | *MPU*=; IMU=MPU6000 gyro/accelerometer (SPI) | Firmware target=MATEKF411; *FW*= | BetaFlight OSD w/ AT7456E chip | US$00.00
 N/A| N/A| No | [Link](https://www.banggood.com/FLYWOO-GOKU-GN413S-F411-F4-Flight-Controller-AIO-OSD-BEC-and-13A-BL_S-2-4S-4In1-ESC-25_5+25_5mm-for-Toothpick-RC-Drone-FPV-Racing-p-1618411.html?cur_warehouse=CN&amp;rmmds=search) | MCU=STM32F411; ESC MCU=BB21F16G; *CPU*= | *MPU*=; IMU=MPU6000 gyro/accelerometer (SPI) | Firmware target=FLYWOOF411; *FW*= | BetaFlight OSD w/ AT7456E chip | US$00.00
 N/A| FLYWOO| No | [Link](https://www.banggood.com/25_5x25_5mm-FLYWOO-GOKU-GN413S-Stack-AIO-2-4S-F4-Flight-Controller-13A-ESC-VTX625-25-or-50-or-100-or-200-or-450mW-Switchable-for-Toothpick-FPV-Racing-Drone-p-1697083.html?cur_warehouse=CN&amp;rmmds=search) | MCU=STM32F411; ESC MCU=BB21F16G; *CPU*= | *MPU*=; IMU=MPU6000 gyro/accelerometer (SPI) | Firmware target=FLYWOOF411; *FW*= | BetaFlight OSD w/ AT7456E chip | US$00.00
+
+
+## Available Third-Party Boards (F405)
+
+PRICE (USD) | Name|Brand name|FalcoX Tested|URL|MCU|MPU/IMU|TARGET|OSD
+-----|-----|-----|-----|-----|-----|-----|-----|-----
+13.00 | Omnibus F4SD| Omnibus | Alpha | [Link](https://www.banggood.com/Omnibus-F4SD-32K-Betaflight_3_2_0-STM32-F405-Flight-Controller-OSD-5V-3A-BEC-30_5X30_5mm-p-1211677.html?cur_warehouse=CN&amp;rmmds=search) | N/A | *MPU*=; *IMU*= | Firmware=OMNIBUSF4SD | N/A
