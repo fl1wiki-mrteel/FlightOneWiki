@@ -67,3 +67,10 @@ PRICE (USD) | Name|Brand name|FalcoX Tested|URL|MCU|MPU/IMU|TARGET|OSD
 35.00 | XRotor F405 G3 Flight Controller| Hobbywing| No | [Link](https://www.banggood.com/Hobbywing-XRotor-F405-G3-Omnibus-F4-Flight-Controller-OSD-w-12V-BEC-30_5x30_5mm-for-RC-FPV-Racing-Drone-p-1540897.html?cur_warehouse=CN&amp;rmmds=search) | STM32F405 | ICM20602 | *TARGET*=; *FW*=; Firmware=OMNIBUSF4SD | Built-in
 
 
+## In scope (Under development)
+
+- MATEKF411SE
+- MAMBAF405
+- IFLIGHTF405
+- OMNIBUSF4
+- TALONF4
