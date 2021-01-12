@@ -4,14 +4,15 @@
 
 #'''
 
-function Parse-MultiURL($searchstring){
+function Parse-MultiURL($searchstring,$fwtarget, $MCUModel){
 
     #[Microsoft.PowerShell.Commands.PSUserAgent].GetProperties() |
     #Select-Object Name, @{n='UserAgent';e={ [Microsoft.PowerShell.Commands.PSUserAgent]::$($_.Name) }}
     $userAgent = [Microsoft.PowerShell.Commands.PSUserAgent]::Chrome
 
     $links = iwr https://www.banggood.com/search/$($searchstring).html?from=nav -UserAgent $userAgent
-    $ResultLinks = $links.links | ?{ ($_.InnerHTML -like "*AIO*") -and ($_.InnerHTML -like "*F4*")} | select title,href
+    #$ResultLinks = $links.links | ?{ ($_.InnerHTML -like "*AIO*") -and ($_.InnerHTML -like "*F4*")} | select title,href
+    $ResultLinks = $links.links | ?{($_.InnerHTML -like "*$($MCUModel)*")} | select title,href
 
     $script:Table_results = @()
     $script:Table_results += "Name|Brand name|FalcoX Tested|URL|MCU|MPU/IMU|TARGET|OSD|PRICE"
@@ -43,11 +44,15 @@ function Parse-MultiURL($searchstring){
 
         #$table | select "Item *", size, "Brand*", "Mounting*", "Dimensions*", "ESC Current", "*MPU*", "*CPU*", MCU, IMU, OSD, TARGET, fw, Firmware | ft
 
+        if(!$fwtarget){
+            $fwtarget = $MCUModel
+        }
+
         $Name_ = $table."Item Name"
         $Brand_Name_ = $table."Brand Name"
         $MCU_ = $table | select "*MCU*", "*CPU*" | ?{$_ -like "*STM*"}
         $MPU_ = $table | select "*MPU*", "*IMU*" | ?{ ($_ -like "*MPU*") -or ($_ -like "*IMC*")}
-        $TARGET_  = $table | select "*TARGET*", "*FW*", "*Firmware*" | ?{$_ -like "*F411*"}
+        $TARGET_  = $table | select "*TARGET*", "*FW*", "*Firmware*" | ?{$_ -like "*$($fwtarget)*"}
         $OSD_ = $table.OSD
 
         if($TARGET_){
@@ -76,7 +81,9 @@ function Parse-MultiURL($searchstring){
 
 }
 
-Parse-MultiURL -searchstring "AIO Flight Controller"
+Parse-MultiURL -searchstring "Flight controller" -fwtarget "OMNIBUSF4SD" -MCUModel "F405"
+Parse-MultiURL -searchstring "Flight controller" -MCUModel "F405"
+
 
 #'''
 
