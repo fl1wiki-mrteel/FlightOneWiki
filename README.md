@@ -37,6 +37,8 @@ Check out the Todo list -> [TodoList](https://github.com/fl1wiki-mrteel/FlightOn
             
 # Troubleshooting
 
+- FlightOne Issue tracker
+    - [View/Create](https://github.com/FlightOne/FalcoX-Issue-Tracker/issues)
 - Troubleshooting
     - [Radio setup/wizard](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Troubleshooting#radio-setupwizard)
     - [Radio RSSI](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Troubleshooting#radio-rssi)
@@ -60,6 +62,10 @@ Check out the Todo list -> [TodoList](https://github.com/fl1wiki-mrteel/FlightOn
 - [Boot up logo](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Lightning%20H7/Splash%20Screen)
 - [ESC Protocols](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Features/ESC)
 
+- FlightOne Feature requests
+    - [View/Create](https://github.com/FlightOne/FalcoX-Issue-Tracker/issues)
+
+    
 ## Feature log
 
 Version | Type | Feature
