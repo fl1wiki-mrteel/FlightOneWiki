@@ -182,6 +182,7 @@ Version 10.1.0.4984 Alpha5 | FIX/ADD | * Adds support for Ghost Protocol </br> *
 
 ## Pilots
 
+- [WildWilly FPV](https://www.youtube.com/channel/UCLgBijEbut0pl6uXmDAkgwg)
 - [BlackBird](https://www.youtube.com/channel/UCyXHYPT1RrzU6_skZaPchCg)
 - [Johnny FPV](https://www.youtube.com/channel/UC7O8KgJdsE_e9op3vG-p2dg)
 - [Skitzo](https://www.youtube.com/channel/UCTG9Xsuc5-0HV9UcaTeX1PQ)
