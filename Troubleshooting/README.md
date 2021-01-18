@@ -34,21 +34,23 @@ RESET_WIZARD MOTOR
 </br>
 or if that dont work restore a whole DUMP/Backup-file and restore to factory defaults.
 </br>
+</br>
 
-<b>Step #1</b>
+<b>Step #1</b></br>
 Restore from a backup (Just needs to be a FalcoX backup) [Backup/Dump](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/DUMPS/H7.txt) </br>
 copy/paste or use built in function to restore configuration.
 </br>
 </br>
-<b>Step #2</b>
-Reset to factory defaults:
+<b>Step #2</b></br>
+Reset to factory defaults:</br>
 ```
 RESET_CONFIG
 RESETCONFIG
 SAVE
 
 ```
-
+</br>
+</br>
 
 ### Radio setup/wizard - how to
 
