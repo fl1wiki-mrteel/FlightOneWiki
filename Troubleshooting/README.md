@@ -19,7 +19,6 @@ Open FalcoX Configurator and paste the following lines one by one. Then restart 
 This solution will result in your sticks not being calibrated, so not a long term fix.</br>
 
 ```
-
 SET uart1_protocol=2
 SET uart1_pinswap=1
 SET wizard_flags=127
@@ -32,6 +31,24 @@ Open FalcoX Configurator and paste the following lines one by one. Then restart 
 ```
 RESET_WIZARD MOTOR
 ```
+</br>
+or if that dont work restore a whole DUMP/Backup-file and restore to factory defaults.
+</br>
+
+<b>Step #1</b>
+Restore from a backup (Just needs to be a FalcoX backup) [Backup/Dump](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/DUMPS/H7.txt) </br>
+copy/paste or use built in function to restore configuration.
+</br>
+</br>
+<b>Step #2</b>
+Reset to factory defaults:
+```
+RESET_CONFIG
+RESETCONFIG
+SAVE
+
+```
+
 
 ### Radio setup/wizard - how to
 
