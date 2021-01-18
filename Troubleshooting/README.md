@@ -49,8 +49,6 @@ RESETCONFIG
 SAVE
 
 ```
-</br>
-</br>
 <b>Step #3</b></br>
 Do the initial setup wizard again thru OSD (Goggles)
 </br>
