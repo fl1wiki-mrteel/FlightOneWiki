@@ -51,7 +51,11 @@ SAVE
 ```
 </br>
 </br>
-
+<b>Step #3</b></br>
+Do the initial setup wizard again thru OSD (Goggles)
+</br>
+</br>
+</br>
 ### Radio setup/wizard - how to
 
 Edit to match your UART-number, and protocol is found in table below
