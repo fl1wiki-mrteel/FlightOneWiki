@@ -32,7 +32,7 @@ Open FalcoX Configurator and paste the following lines one by one. Then restart 
 RESET_WIZARD MOTOR
 ```
 </br>
-or if that dont work restore a whole DUMP/Backup-file and restore to factory defaults.
+...<b>Or </b>if that dont work restore a whole DUMP/Backup-file and restore to factory defaults.
 </br>
 </br>
 
