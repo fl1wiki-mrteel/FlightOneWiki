@@ -146,7 +146,7 @@ Press the button while powering the Flightcontroller</br>
 
 ## Lightning H7 LEDs
 
-![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/H7_LEDS.jpg)
+![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/H7_LEDS.JPG)
 
 - LED #1 (3,3v): Blue color, if not lit the 3,3v reg is broken and probably MCU/CPU as well
 - LED #2 (5v): Green color, if not lit the FC has no 5v
