@@ -49,6 +49,7 @@ Check out the Todo list -> [TodoList](https://github.com/fl1wiki-mrteel/FlightOn
     - [Recovery](#)
         - [Enter DFU](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Troubleshooting#Enter-DFU-mode)
         - [Enter Bootloader](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Troubleshooting#Enter-Bootloader-mode)
+    - [Lightning H7 LEDs](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Troubleshooting#Lightning-H7-LEDs)
 - Troubleshooting
     - [Lightning H7](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Lightning%20H7/Troubleshooting)
         - [No folders/Startup tones](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Lightning%20H7/Troubleshooting#lightning-h7---no-folders-or-startup-tones)
