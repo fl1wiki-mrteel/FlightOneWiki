@@ -19,7 +19,7 @@ Check out the Todo list -> [TodoList](https://github.com/fl1wiki-mrteel/FlightOn
         - [MillivoltOSD](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/Flightcontrollers/MillivoltOSD/Pinout)
     - OSD
         - [Enter OSD](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/InitialSetup/OSD.md)
-            - [Enter OSD VTX Settings](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/InitialSetup/OSD.md)
+            - [Enter OSD VTX Settings](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/InitialSetup/OSD.md#shortcut-to-vtx-settings-in-osd)
     - [cmdlet](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/CMDLETS)
     - [configurators](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/Configurator)
     - [Lookup tables "LUTs"](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/LUT)
