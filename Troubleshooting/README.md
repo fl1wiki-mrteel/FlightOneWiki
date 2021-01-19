@@ -115,6 +115,7 @@ SET wizard_flags=127
 - Camera and VTX should have common ground
 - PAL / NTSC must match camera settings
 
+[How to Enter OSD](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/InitialSetup/OSD.md)
 
 
 ## External links
