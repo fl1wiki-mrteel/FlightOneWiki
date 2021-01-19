@@ -110,6 +110,12 @@ SET wizard_flags=127
 ![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/CRSF_NANO_CH8.JPG)
 
 
+## OSD Not working
+
+- Camera and VTX should have common ground
+- PAL / NTSC must match camera settings
+
+
 
 ## External links
 - [Get Crossfire RSSI in Flightone OSD, easier then you think! - 2dogrc](https://www.youtube.com/watch?v=3qxWdBMQSNU)
