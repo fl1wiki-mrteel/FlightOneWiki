@@ -148,12 +148,15 @@ Press the button while powering the Flightcontroller</br>
 
 ![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/H7_LEDS.JPG)
 
-- LED #1 (3,3v): Blue color, if not lit the 3,3v reg is broken and probably MCU/CPU as well
-- LED #2 (5v): Green color, if not lit the FC has no 5v
-- LED #3 (11): Red color - Status LED
-- LED #4 (12): Red color - Status LED
-- LED #5 (13): Red color - Status LED
+LED Number | Value | Color | Note
+----- | ----- | ----- | -----
+LED #1 | 3,3v | Blue | If not lit the 3,3v reg is broken and probably MCU/CPU as well
+LED #2 | 5v   | Green | If not lit the FC has no 5v
+LED #3 | (11) | Red  | Status LED
+LED #4 | (12) | Red  | Status LED
+LED #5 | (13) | Red  | Status LED
 
+<b>Decoding blink:</b></br>
 - Slow blink from led LED#3, LED#4 and LED#5 mean it's running the flight code
 - Super fast blink from LED#3, LED#4 and LED#5 means it's in bootloader
 - All 3 LEDs (LED#3, LED#4 and LED#5) blinking twice means it's armed/been armed already
