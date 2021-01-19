@@ -17,6 +17,9 @@ Check out the Todo list -> [TodoList](https://github.com/fl1wiki-mrteel/FlightOn
         - [Lightning H7](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/Flightcontrollers/Lightning%20H7/Pinout)
         - [RevoltOSD](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/Flightcontrollers/RevoltOSD/Pinout)
         - [MillivoltOSD](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/Flightcontrollers/MillivoltOSD/Pinout)
+    - OSD
+        - [Enter OSD](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/InitialSetup/OSD.md)
+            - [Enter OSD VTX Settings](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/InitialSetup/OSD.md)
     - [cmdlet](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/CMDLETS)
     - [configurators](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/Configurator)
     - [Lookup tables "LUTs"](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/LUT)
