@@ -126,20 +126,37 @@ Using CLI you can write "DFU":
 DFU
 ```
 
-If thats not possible you can jumper these pads
 
+If thats not possible you can jumper these pads
+</br>
+<b>Lightning H7</b></br>
+</br>
 ![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/DFU_Bridge.JPG)
 
 
 
 ## Enter Bootloader mode
 
-Press the button while powering the Flightcontroller
+Press the button while powering the Flightcontroller</br>
+</br>
+<b>Lightning H7</b></br>
 
 ![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/H7_REAL_UP_BUTTON.jpg)
 
 
+## Lightning H7 LEDs
 
+![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/H7_LEDS.jpg)
+
+- LED #1 (3,3v): Blue color, if not lit the 3,3v reg is broken and probably MCU/CPU as well
+- LED #2 (5v): Green color, if not lit the FC has no 5v
+- LED #3 (11): Red color - Status LED
+- LED #4 (12): Red color - Status LED
+- LED #5 (13): Red color - Status LED
+
+- Slow blink from led LED#3, LED#4 and LED#5 mean it's running the flight code
+- Super fast blink from LED#3, LED#4 and LED#5 means it's in bootloader
+- All 3 LEDs (LED#3, LED#4 and LED#5) blinking twice means it's armed/been armed already
 
 ## External links
 - [Get Crossfire RSSI in Flightone OSD, easier then you think! - 2dogrc](https://www.youtube.com/watch?v=3qxWdBMQSNU)
