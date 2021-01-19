@@ -13,7 +13,30 @@
     1. Before checkout, add your serial number under "Order notes (optional)"
     ![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/Thirdpartytargetorder.JPG)
 
-    
+
+## Third-Party Targets (Summery)
+
+FW TARGET | Flightcontroller | Note
+----- | ----- | -----
+BETAFLIGHTF4 | N/A | N/A
+BETAFPVF7 | N/A | N/A
+FOXEER F722 V2 | N/A | N/A
+FURYF4 OSD | N/A | N/A
+IFLIGHTF405 | N/A | N/A
+IFLIGHTF722 TWING | N/A | N/A
+MAMABAF411 | N/A | N/A
+MAMBAF405US | N/A | N/A
+MAMBAF7 | N/A | N/A
+MATEKF411 | N/A | N/A
+MATEKF411RX | N/A | N/A
+MATEKF411SE | N/A | N/A
+OMNIBUSF4 | N/A | N/A
+OMNIBUSF4SD | N/A | N/A
+TALONF4 | N/A | N/A
+TINAWHOOP | N/A | N/A
+
+
+
 ## STM32F411
 
 - MAMBAF411 FL1 License
