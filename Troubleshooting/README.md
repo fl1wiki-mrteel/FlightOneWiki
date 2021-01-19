@@ -118,6 +118,29 @@ SET wizard_flags=127
 [How to Enter OSD](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/InitialSetup/OSD.md)
 
 
+## Enter DFU mode
+
+Using CLI you can write "DFU":
+
+```
+DFU
+```
+
+If thats not possible you can jumper these pads
+
+![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/DFU_Bridge.JPG)
+
+
+
+## Enter Bootloader mode
+
+Press the button while powering the Flightcontroller
+
+![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/H7_REAL_UP_BUTTON.jpg)
+
+
+
+
 ## External links
 - [Get Crossfire RSSI in Flightone OSD, easier then you think! - 2dogrc](https://www.youtube.com/watch?v=3qxWdBMQSNU)
 

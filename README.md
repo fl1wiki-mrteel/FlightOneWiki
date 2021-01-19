@@ -46,6 +46,9 @@ Check out the Todo list -> [TodoList](https://github.com/fl1wiki-mrteel/FlightOn
     - [Radio setup/wizard](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Troubleshooting#radio-setupwizard)
     - [Radio RSSI](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Troubleshooting#radio-rssi)
     - [OSD Not showing](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Troubleshooting#osd-not-working)
+    - [Recovery](#)
+        - [Enter DFU](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Troubleshooting#Enter-DFU-mode)
+        - [Enter Bootloader](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Troubleshooting#Enter-Bootloader-mode)
 - Troubleshooting
     - [Lightning H7](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Lightning%20H7/Troubleshooting)
         - [No folders/Startup tones](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Lightning%20H7/Troubleshooting#lightning-h7---no-folders-or-startup-tones)
