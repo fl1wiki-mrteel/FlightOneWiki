@@ -13,6 +13,10 @@
 1. Add AA (anti aliasing) if needed
 
 
+PID-tuning:
+
+![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/PID_Compensation_Animated.gif)
+
 
 # External links
 - [WildWilly Tuning Guide](https://youtu.be/9N39QXw_T8I)
