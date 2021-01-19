@@ -24,10 +24,14 @@
 1. Enable Whisper
 1. PIDs
     1. Raise P (2-3 points) and D (10), D value can be 3-20 times the P value, all depending on your filters
-        1. Normally you could do ROLL-axis first, then PITCH and last YAW,
+        1. Normally you could do ROLL-axis first, then PITCH
             1. Raise P until you get oscillation
             1. Counter P-oscillation by adding D
-    1. Add I-term
+        1. YAW is a bit tricky to tune, but will give you that snappy feeling
+            1. Set D-term to 0
+            1. Set I-term to something round 45-250
+            1. Raise P until you get oscillation and start to back down until oscillation is gone
+        1. Add I-term to ROLL and PITCH if you feel that its needed (This could cause you to have to decrease P on that axis)
 1. Add SIM Boost
 1. Add AA (anti aliasing) if needed
 
