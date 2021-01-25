@@ -17,7 +17,7 @@ All component/sensor/cpu drivers needs to be added manually to support other tha
 
 1. Check your Flightcontroller firmware target
     1. For a Betaflight FC
-        1. Open Betaflight, navigate to CLI, type "version":
+        1. Open Betaflight, navigate to CLI, type "version":</br>
         ![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/BF_VERSION.JPG)
 1. Check if your Flightcontroller is supported
     1. [See list of available Firmware Targets:](https://flightone.com/download.php?version=alpha)
