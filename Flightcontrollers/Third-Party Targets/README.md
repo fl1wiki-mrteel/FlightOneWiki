@@ -1,9 +1,17 @@
 # Third-Party Targets
-
-## Flashing firmware
-
+</br>
+<h2>Why do I need to pay for the software</h2>
 Third-Party Targets require you to buy a licens </br>
-For FlightOne/FalcoX development its key that
+FlightOne/FalcoX runs on custom code, to pay for development FlightOne sells Flightcontrollers and the Firmware to specific targets.</br>
+</br>
+</br>
+<h2>Why cant my Flightcontroller run FalcoX (Not listed in available targets)</h2>
+FalcoX is a complete re-write from the old FlightOne/RaceFlight code.</br>
+All component/sensor/cpu drivers needs to be added manually to support other than Flightone native boards.
+</br>
+</br>
+## Flashing firmware (Buy license)
+</br>
 
 1. Buy a Third-Party target license (License Code/unlock key) [Buy it here](https://shop.flightone.com/product/falcox-fc-license/)
     1. [See list of available Firmware Targets:](https://flightone.com/download.php?version=alpha)
