@@ -15,8 +15,13 @@ All component/sensor/cpu drivers needs to be added manually to support other tha
 
 </br>
 
-1. Buy a Third-Party target license (License Code/unlock key) [Buy it here](https://shop.flightone.com/product/falcox-fc-license/)
+1. Check your Flightcontroller firmware target
+    1. For a Betaflight FC
+        1. Open Betaflight, navigate to CLI, type "version":
+        ![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/BF_VERSION.JPG)
+1. Check if your Flightcontroller is supported
     1. [See list of available Firmware Targets:](https://flightone.com/download.php?version=alpha)
+1. Buy a Third-Party target license (License Code/unlock key) [Buy it here](https://shop.flightone.com/product/falcox-fc-license/) 
     ![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/Thirdpartytargetorder_01.JPG)
 1. Download and install latest FalcoX configurator
     1. [FalcoX Configurator (Alpha)](https://flightone.com/download.php?version=alpha)
