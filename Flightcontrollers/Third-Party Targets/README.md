@@ -28,7 +28,7 @@ All component/sensor/cpu drivers needs to be added manually to support other tha
 1. Flashing FalcoX
     1. Start the FalcoX Configurator (Alpha)
     1. Connect your Flightcontroller and go to Flash Firmware
-    1. Enter the "License Code/unlock key"
+    1. Enter the "License Code/unlock key" (After you enter the code the Flightcontrollers serial number is registered for future flashing).
     1. Flash
 1. Initial Setup
     1. Disconnect from your computer
