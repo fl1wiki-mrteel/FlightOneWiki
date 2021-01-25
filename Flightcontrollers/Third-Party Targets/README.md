@@ -1,17 +1,25 @@
 # Third-Party Targets
 
 ## Flashing firmware
+
+Third-Party Targets require you to buy a licens </br>
+For FlightOne/FalcoX development its key that
+
+1. Buy a Third-Party target license (License Code/unlock key) [Buy it here](https://shop.flightone.com/product/falcox-fc-license/)
+    1. [See list of available Firmware Targets:](https://flightone.com/download.php?version=alpha)
+    ![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/Thirdpartytargetorder_01.JPG)
 1. Download and install latest FalcoX configurator
     1. [FalcoX Configurator (Alpha)](https://flightone.com/download.php?version=alpha)
-    1. [FalcoX Configurator (Beta)](https://flightone.com/download.php?version=beta)    
-    1. [FalcoX Configurator (Stable)](https://flightone.com/download.php?version=stable) 
-1. Connect your Third-Party Target Flightcontroller
-    1. Look at the top left corner, copy the "Serialnumber"
-    ![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/ThirdpartytargetConfigurator.JPG)
-1. Browse to [Buy Third Party Target Lic page](https://shop.flightone.com/?cat=digital-download&s=&post_type=product)
-    1. Select your Firmware target and add it to your shopping cart
-    1. Before checkout, add your serial number under "Order notes (optional)"
-    ![Image](https://github.com/fl1wiki-mrteel/FlightOneWiki/blob/main/IMG/Thirdpartytargetorder.JPG)
+1. Flashing FalcoX
+    1. Start the FalcoX Configurator (Alpha)
+    1. Connect your Flightcontroller and go to Flash Firmware
+    1. Enter the "License Code/unlock key"
+    1. Flash
+1. Initial Setup
+    1. Disconnect from your computer
+    1. Remove props
+    1. Start your <b>Radio-transmitter</b> and <b>Connect Lipo</b>
+    1. Follow instructions displayed on OSD
 
 
 ## Third-Party Targets (Summery)
