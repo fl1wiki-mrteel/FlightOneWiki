@@ -29,13 +29,15 @@ All component/sensor/cpu drivers needs to be added manually to support other tha
     1. Start the FalcoX Configurator (Alpha)
     1. Connect your Flightcontroller and go to Flash Firmware
     1. Enter the "License Code/unlock key" (After you enter the code the Flightcontrollers serial number is registered for future flashing).
-    1. Flash
+    1. Flash the firmware
 1. Initial Setup
     1. Disconnect from your computer
     1. Remove props
     1. Start your <b>Radio-transmitter</b> and <b>Connect Lipo</b>
     1. Follow instructions displayed on OSD
 
+</br>
+</br>
 
 ## Third-Party Targets (Summery)
 
