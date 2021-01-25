@@ -10,7 +10,9 @@ FalcoX is a complete re-write from the old FlightOne/RaceFlight code.</br>
 All component/sensor/cpu drivers needs to be added manually to support other than Flightone native boards.
 </br>
 </br>
+
 ## Flashing firmware (Buy license)
+
 </br>
 
 1. Buy a Third-Party target license (License Code/unlock key) [Buy it here](https://shop.flightone.com/product/falcox-fc-license/)
