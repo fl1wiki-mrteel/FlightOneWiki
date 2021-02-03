@@ -15,6 +15,15 @@
 
 <b>Problem:</b> Radio/Reciever not detected</br>
 </br>
+Method #1: Verify UART, switch to UART 1 RX (RX1), or use the full UART1 (Reciever ch1 (tx) -> RX1, Reciever ch2 (rx) -> TX1)</br>
+Method #2: Enter FalcoX Configurator, in CLI/Command line, write "RESETCONFIG", reboot/power cycle the FC, connect lipo and do the initial setup again.
+
+</br>
+</br>
+</br>
+
+<b>Problem:</b> Radio/Reciever not detected (CRSF)</br>
+</br>
 You have a Crossfire RX:
 - CRSF has a solid (not blinking) green light (If blinking, do a factory reset and bind again)
 - Telemetry working
