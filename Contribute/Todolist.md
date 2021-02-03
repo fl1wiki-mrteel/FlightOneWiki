@@ -2,9 +2,9 @@
 
 # Pinout diagrams
 
-- [ ] H7
-- [ ] RevoltOSD
-- [ ] MillivoltOSD
+- [X] H7
+- [X] RevoltOSD
+- [X] MillivoltOSD
 
 # Connection diagram
 
@@ -49,7 +49,7 @@
 - [x] How to buy license
 
 # Recommended gear
-- [ ] Recommended gear list
+- [X] Recommended gear list
 
 # Videos
 - [ ] Build
