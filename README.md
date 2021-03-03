@@ -70,6 +70,8 @@ Check out the Todo list -> [TodoList](https://github.com/fl1wiki-mrteel/FlightOn
 - [Buzzer/Motorbeep](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Features/Buzzer)
 - [Boot up logo](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Lightning%20H7/Splash%20Screen)
 - [ESC Protocols](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Features/ESC)
+- [AIO FlightController](#)
+    - [Blheli_s 48Khz PWM](https://github.com/fl1wiki-mrteel/FlightOneWiki/tree/main/Flightcontrollers/Third-Party%20Targets/General/AIO/README.md)
 
 - FlightOne Feature requests
     - [View/Create](https://github.com/FlightOne/FalcoX-Issue-Tracker/issues)
